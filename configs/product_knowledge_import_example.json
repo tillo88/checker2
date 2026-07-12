@@ -1,0 +1,70 @@
+{
+  "source": {
+    "key": "manufacturer_example",
+    "name": "Manufacturer structured example",
+    "type": "official_manufacturer",
+    "reliability": 0.98
+  },
+  "products": [
+    {
+      "family_key": "apple_iphone_16_pro_max",
+      "category": "technology_smartphone",
+      "brand": "Apple",
+      "family_name": "iPhone 16 Pro Max",
+      "confidence": 0.98,
+      "aliases": [
+        {"value": "iPhone 16 Pro Max", "language": "und", "confidence": 0.99},
+        {"value": "16 Pro Max", "language": "und", "confidence": 0.92}
+      ],
+      "variants": [
+        {
+          "variant_key": "iphone_16_pro_max_256gb",
+          "variant_name": "iPhone 16 Pro Max 256GB",
+          "confidence": 0.98,
+          "aliases": ["iPhone 16PM 256GB"],
+          "identifiers": [
+            {"type": "model_code", "value": "EXAMPLE-A3296", "confidence": 0.99}
+          ],
+          "specs": [
+            {"key": "storage", "value": 256, "unit": "GB", "confidence": 0.99}
+          ],
+          "evidence": [
+            {
+              "type": "official_specification",
+              "field": "storage",
+              "value": 256,
+              "source_type": "official_manufacturer",
+              "source_ref": "https://example.invalid/product",
+              "excerpt": "Example payload only; replace with a real official source.",
+              "confidence": 0.99
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family_key": "apple_usb_c_20w_power_adapter",
+      "category": "technology_accessory_charger",
+      "brand": "Apple",
+      "family_name": "20W USB-C Power Adapter",
+      "confidence": 0.98,
+      "aliases": [
+        {"value": "Apple 20W USB-C Charger", "language": "en", "confidence": 0.96},
+        {"value": "Alimentatore USB-C Apple 20W", "language": "it", "confidence": 0.96}
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "subject": {
+        "family_key": "apple_iphone_16_pro_max",
+        "variant_key": "iphone_16_pro_max_256gb"
+      },
+      "type": "compatible_with",
+      "object": {
+        "family_key": "apple_usb_c_20w_power_adapter"
+      },
+      "confidence": 0.98
+    }
+  ]
+}

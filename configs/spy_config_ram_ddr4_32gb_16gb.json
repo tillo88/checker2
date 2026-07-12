@@ -1,0 +1,103 @@
+{
+  "item_description": "RAM DDR4 desktop memory - 32GB or 16GB single bank, no ECC/SODDIM",
+  "search_keywords": [
+    "ddr4 32gb",
+    "32gb ddr4",
+    "ram 32gb desktop",
+    "memoria 32gb ddr4",
+    "ddr4 16gb",
+    "16gb ddr4",
+    "ram 16gb desktop",
+    "memoria 16gb ddr4",
+    "ddr4 ram",
+    "32gb ram"
+  ],
+  "exclude_words": [
+    "sodimm",
+    "ecc",
+    "notebook",
+    "laptop",
+    "server",
+    "pc",
+    "bundle",
+    "lotto",
+    "pezzi",
+    "vendo",
+    "all",
+    "complete"
+  ],
+  "required_words": [
+    "ddr4",
+    "ram",
+    "memoria",
+    "32gb",
+    "16gb"
+  ],
+  "distractor_words": [
+    "scheda madre",
+    "cpu",
+    "processore",
+    "bundle",
+    "pc",
+    "complete",
+    "lotto"
+  ],
+  "budget": {
+    "default": 130.0,
+    "configurations": {
+      "32gb": 130.0,
+      "16gb": 60.0,
+      "standard": 130.0
+    }
+  },
+  "config_patterns": {
+    "32gb": [
+      "32gb",
+      "32 gb"
+    ],
+    "16gb": [
+      "16gb",
+      "16 gb"
+    ]
+  },
+  "reject_patterns": [
+    "lotto",
+    "pezzi",
+    "vendo all",
+    "pc complete",
+    "bundle",
+    "sold as pieces"
+  ],
+  "premium_brands": [
+    "corsair",
+    "crucial",
+    "kingston",
+    "g.skill"
+  ],
+  "positive_keywords": {
+    "3200mhz": 5,
+    "3600mhz": 8,
+    "corsair": 3,
+    "single": 2
+  },
+  "negative_keywords": [
+    "lotto",
+    "diffettoso",
+    "per pieces",
+    "non funciona",
+    "bundle",
+    "pc complete"
+  ],
+  "platforms": [
+    "VINTED",
+    "SUBITO",
+    "EBAY",
+    "WALLAPOP"
+  ],
+  "vision_enabled": true,
+  "context_check_enabled": true,
+  "interval_seconds": 300,
+  "max_history": 200,
+  "ebay_app_id_env": "EBAY_APP_ID",
+  "system_prompt": "[SYSTEM]\nYou are a strict JSON generator. Output ONLY valid JSON.\nRules:\n1. No markdown code blocks\n2. No text before or after JSON\n3. Valid JSON structure only\n4. All fields must be present\n5. No comments or explanations"
+}

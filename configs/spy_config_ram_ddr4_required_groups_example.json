@@ -1,0 +1,123 @@
+{
+  "name": "ram_ddr4_required_groups_example",
+  "item_description": "RAM DDR4 desktop 32GB o 16GB, non ECC, no SODIMM.",
+  "search_keywords": [
+    "ram 32gb",
+    "ddr4 32gb",
+    "ram 16gb",
+    "ddr4 16gb"
+  ],
+  "exclude_words": [
+    "sodimm",
+    "ecc",
+    "rdimm",
+    "registered",
+    "server",
+    "laptop",
+    "notebook",
+    "portatile",
+    "ddr2",
+    "ddr3",
+    "ddr5"
+  ],
+  "required_words": [
+    "ram",
+    "memoria",
+    "ddr4",
+    "32gb",
+    "16gb"
+  ],
+  "required_groups": [
+    [
+      "ddr4"
+    ],
+    [
+      "ram",
+      "memoria"
+    ],
+    [
+      "32gb",
+      "32 gb",
+      "16gb",
+      "16 gb"
+    ]
+  ],
+  "distractor_words": [
+    "bundle pc",
+    "computer intero"
+  ],
+  "budget": {
+    "default": 143,
+    "configurations": {
+      "32gb": 143,
+      "16gb": 66
+    }
+  },
+  "unit_budget_rules": [
+    {
+      "name": "32GB banco",
+      "match": [
+        "32gb",
+        "32 gb"
+      ],
+      "max_price_per_unit": 143,
+      "unit": "banco",
+      "unit_aliases": [
+        "banco",
+        "banchi",
+        "modulo",
+        "moduli"
+      ]
+    },
+    {
+      "name": "16GB banco",
+      "match": [
+        "16gb",
+        "16 gb"
+      ],
+      "max_price_per_unit": 66,
+      "unit": "banco",
+      "unit_aliases": [
+        "banco",
+        "banchi",
+        "modulo",
+        "moduli"
+      ]
+    }
+  ],
+  "config_patterns": {
+    "32gb": [
+      "32gb",
+      "32 gb"
+    ],
+    "16gb": [
+      "16gb",
+      "16 gb"
+    ]
+  },
+  "reject_patterns": [
+    "ddr2",
+    "ddr3",
+    "ddr5",
+    "sodimm",
+    "ecc",
+    "rdimm",
+    "registered",
+    "server"
+  ],
+  "premium_brands": [],
+  "positive_keywords": {},
+  "negative_keywords": [],
+  "platforms": [
+    "VINTED",
+    "SUBITO",
+    "EBAY",
+    "WALLAPOP"
+  ],
+  "vision_enabled": true,
+  "context_check_enabled": true,
+  "interval_seconds": 300,
+  "max_history": 200,
+  "ebay_app_id_env": "EBAY_APP_ID",
+  "system_prompt": "Analizza l'annuncio e verifica il contenuto reale, senza fidarti dei tag. Accetta solo RAM DDR4 desktop da 32GB o 16GB, no ECC/SODIMM/RDIMM/server/laptop."
+}

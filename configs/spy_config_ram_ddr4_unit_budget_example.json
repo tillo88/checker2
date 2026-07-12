@@ -1,0 +1,148 @@
+{
+  "name": "ram_ddr4_desktop_unit_budget_example",
+  "item_description": "RAM DDR4 desktop per banco: 32GB max 130EUR (+10% = 143), 16GB max 60EUR (+10% = 66), qualunque quantità va bene se il prezzo per banco rientra.",
+  "search_keywords": [
+    "ddr4 32gb",
+    "32gb ddr4",
+    "ram 32gb ddr4",
+    "memoria 32gb ddr4",
+    "ddr4 16gb",
+    "16gb ddr4",
+    "ram 16gb ddr4",
+    "2x32gb ddr4",
+    "4x32gb ddr4"
+  ],
+  "exclude_words": [
+    "sodimm",
+    "so-dimm",
+    "ecc",
+    "rdimm",
+    "registered",
+    "server",
+    "laptop",
+    "notebook",
+    "portatile",
+    "ddr3",
+    "ddr5"
+  ],
+  "required_words": [
+    "ddr4",
+    "ram",
+    "memoria",
+    "32gb",
+    "32 gb",
+    "16gb",
+    "16 gb"
+  ],
+  "distractor_words": [
+    "pc",
+    "computer",
+    "bundle",
+    "scheda madre",
+    "motherboard",
+    "cpu"
+  ],
+  "budget": {
+    "default": 143.0,
+    "configurations": {
+      "standard": 143.0
+    }
+  },
+  "unit_budget_rules": [
+    {
+      "name": "32gb_per_stick",
+      "match": [
+        "32gb",
+        "32 gb"
+      ],
+      "max_price_per_unit": 143.0,
+      "unit": "banco",
+      "unit_aliases": [
+        "banco",
+        "banchi",
+        "stick",
+        "modulo",
+        "moduli"
+      ]
+    },
+    {
+      "name": "16gb_per_stick",
+      "match": [
+        "16gb",
+        "16 gb"
+      ],
+      "max_price_per_unit": 66.0,
+      "unit": "banco",
+      "unit_aliases": [
+        "banco",
+        "banchi",
+        "stick",
+        "modulo",
+        "moduli"
+      ]
+    }
+  ],
+  "config_patterns": {
+    "32gb": [
+      "32gb",
+      "32 gb"
+    ],
+    "16gb": [
+      "16gb",
+      "16 gb"
+    ]
+  },
+  "reject_patterns": [
+    "sodimm",
+    "so-dimm",
+    "ecc",
+    "rdimm",
+    "registered",
+    "server memory",
+    "laptop",
+    "notebook",
+    "ddr3",
+    "ddr5",
+    "difettoso",
+    "non funzionante"
+  ],
+  "premium_brands": [
+    "corsair",
+    "kingston",
+    "crucial",
+    "g.skill",
+    "teamgroup",
+    "adata",
+    "patriot",
+    "hyperx",
+    "ballistix"
+  ],
+  "positive_keywords": {
+    "3200mhz": 5,
+    "3600mhz": 8,
+    "cl16": 4,
+    "corsair": 3,
+    "g.skill": 3,
+    "crucial": 2
+  },
+  "negative_keywords": [
+    "pc completo",
+    "computer completo",
+    "solo blocco",
+    "non smembro",
+    "scheda madre",
+    "cpu"
+  ],
+  "platforms": [
+    "VINTED",
+    "SUBITO",
+    "EBAY",
+    "WALLAPOP"
+  ],
+  "vision_enabled": true,
+  "context_check_enabled": true,
+  "interval_seconds": 300,
+  "max_history": 200,
+  "ebay_app_id_env": "EBAY_APP_ID",
+  "system_prompt": "[SYSTEM]\nYou are a strict JSON-only marketplace listing evaluator. Evaluate desktop DDR4 RAM by unit price. Accept any kit quantity if price per stick is within budget. Hard reject SODIMM/SO-DIMM, ECC, RDIMM, Registered, server memory, laptop/notebook memory, DDR3, DDR5, broken items. Return ONLY valid JSON."
+}

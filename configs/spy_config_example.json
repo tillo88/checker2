@@ -1,0 +1,32 @@
+{
+  "config_name": "example",
+  "item_description": "RAM DDR4 desktop da 16GB o 32GB; escludere ECC e SODIMM",
+  "search_keywords": ["ram ddr4 16gb", "ram ddr4 32gb"],
+  "exclude_words": ["sodimm", "ecc"],
+  "required_words": [],
+  "required_groups": [
+    ["ddr4"],
+    ["ram", "memoria"],
+    ["16gb", "16 gb", "32gb", "32 gb"]
+  ],
+  "distractor_words": [],
+  "budget": {
+    "default": 150.0,
+    "configurations": {"16gb": 80.0, "32gb": 150.0, "standard": 150.0}
+  },
+  "config_patterns": {
+    "16gb": ["16gb", "16 gb"],
+    "32gb": ["32gb", "32 gb"]
+  },
+  "reject_patterns": ["ddr3", "ddr5", "sodimm", "ecc"],
+  "premium_brands": ["corsair", "crucial", "kingston", "g.skill"],
+  "positive_keywords": {"3200mhz": 5, "3600mhz": 8},
+  "negative_keywords": ["difettoso", "non funzionante"],
+  "platforms": ["MOCK"],
+  "vision_enabled": false,
+  "context_check_enabled": true,
+  "interval_seconds": 300,
+  "max_history": 200,
+  "max_items_per_keyword": 10,
+  "max_total_items": 20
+}
