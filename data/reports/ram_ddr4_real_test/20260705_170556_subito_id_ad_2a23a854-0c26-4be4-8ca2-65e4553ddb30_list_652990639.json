@@ -1,0 +1,47 @@
+{
+  "listing": {
+    "id": "subito_id:ad:2a23a854-0c26-4be4-8ca2-65e4553ddb30:list:652990639",
+    "platform": "SUBITO",
+    "title": "RAM 32Gb ddr4+CPU 5950x AM4+Motherboard TUF x570",
+    "price": 549.0,
+    "url": "https://www.subito.it/informatica/ram-32gb-ddr4-cpu-5950x-am4-motherboard-tuf-x570-milano-652990639.htm",
+    "description": "RAM 32Gb ddr4+CPU 5950x AM4+Motherboard TUF x570",
+    "image_url": null,
+    "extra_info": "Milano (MI) | Spedizione disponibile"
+  },
+  "decision": {
+    "status": "REJECT",
+    "reason": "Regole base fallite",
+    "score": 0,
+    "config": "standard"
+  },
+  "evidence": [
+    {
+      "step": "rules",
+      "status": "MATCH",
+      "reason": "Parole richieste trovate: ['ddr4', 'ram', '32gb']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:05:56"
+    },
+    {
+      "step": "rules",
+      "status": "REJECT",
+      "reason": "Distrattori: ['cpu']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:05:56"
+    },
+    {
+      "step": "decision",
+      "status": "REJECT",
+      "reason": "Regole base fallite",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:05:56"
+    }
+  ]
+}

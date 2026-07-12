@@ -1,0 +1,59 @@
+{
+  "listing": {
+    "id": "wallapop_1278964133",
+    "platform": "WALLAPOP",
+    "title": "ASUS Expertbook B3 Mil-Std Intel Core Ultra 7 255H",
+    "price": 769.0,
+    "url": "https://it.wallapop.com/item/asus-expertbook-b3-mil-std-intel-core-ultra-7-255h-1278964133",
+    "description": "Praticamente nuovo come da foto, completo di accessori e alimentatore originale Intel® Core™ Ultra 7 255H fino a 5.1 GHz Windows 11 Pro 16GB DDR5 Slot liberi: 1 Massimo supportato: 64GB 16\" WUXGA (1920 × 1200), 16:10 Anti riflesso 300 nit 1× HDMI 2.1 SSD 1TB M.2 NVMe PCIe 4.0 Slot per secondo SSD Wi Fi 6E (802.11ax), dual band 2×2 Bluetooth® 5.4 LAN 1000 Mbps 1080p FHD + IR (Windows Hello) Otturatore privacy Audio by Dirac Altoparlanti e Microfoni integrati Jack audio combo 3.5mm 2× USB A 3.2 Gen 1 2× USB C 3.2 Gen 2 (video + power delivery) Lettore MicroSD Sensore di impronte Kensington TPM 2.0 1.79 kg Certificazione militare MIL S",
+    "image_url": null,
+    "extra_info": ""
+  },
+  "decision": {
+    "status": "REJECT",
+    "reason": "Context: Listing sells complete laptop, not standalone RAM. Memory type is DDR5, not DDR4.",
+    "score": 0,
+    "config": "standard"
+  },
+  "evidence": [
+    {
+      "step": "rules",
+      "status": "MATCH",
+      "reason": "Parole richieste trovate: ['16gb']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:38:33"
+    },
+    {
+      "step": "rules",
+      "status": "ACCEPT",
+      "reason": "Regole base OK",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:38:33"
+    },
+    {
+      "step": "context",
+      "status": "REJECT",
+      "reason": "Listing sells complete laptop, not standalone RAM. Memory type is DDR5, not DDR4.",
+      "score_delta": 0,
+      "confidence": 100,
+      "data": {
+        "config": "DDR5 16GB (not DDR4)",
+        "price_eur": null
+      },
+      "timestamp": "2026-07-05T17:38:36"
+    },
+    {
+      "step": "decision",
+      "status": "REJECT",
+      "reason": "Context: Listing sells complete laptop, not standalone RAM. Memory type is DDR5, not DDR4.",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:38:36"
+    }
+  ]
+}

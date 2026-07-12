@@ -1,0 +1,38 @@
+{
+  "listing": {
+    "id": "mock_bad_laptop_001",
+    "platform": "MOCK",
+    "title": "RAM SODIMM DDR4 notebook 16GB",
+    "price": 25.0,
+    "url": "https://example.com/mock_bad_laptop_001",
+    "description": "Memoria per laptop/notebook.",
+    "image_url": null,
+    "extra_info": ""
+  },
+  "decision": {
+    "status": "REJECT",
+    "reason": "Regole base fallite",
+    "score": 0,
+    "config": "standard"
+  },
+  "evidence": [
+    {
+      "step": "rules",
+      "status": "REJECT",
+      "reason": "Parole escluse: ['sodimm', 'notebook', 'laptop']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T15:57:39"
+    },
+    {
+      "step": "decision",
+      "status": "REJECT",
+      "reason": "Regole base fallite",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T15:57:39"
+    }
+  ]
+}

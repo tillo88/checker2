@@ -1,0 +1,59 @@
+{
+  "listing": {
+    "id": "subito_id:ad:e4a679a1-a478-4875-9093-c668ab67ed3f:list:653082969",
+    "platform": "SUBITO",
+    "title": "Ryzen 5900X X470 32gb ddr4 RX 5700 XT GPU",
+    "price": 650.0,
+    "url": "https://www.subito.it/informatica/ryzen-5900x-x470-32gb-ddr4-rx-5700-xt-gpu-la-spezia-653082969.htm",
+    "description": "Ryzen 5900X X470 32gb ddr4 RX 5700 XT GPU",
+    "image_url": null,
+    "extra_info": "Sarzana (SP) | Spedizione disponibile"
+  },
+  "decision": {
+    "status": "REJECT",
+    "reason": "Context: Listing sells complete computer system, not standalone RAM component",
+    "score": 0,
+    "config": "standard"
+  },
+  "evidence": [
+    {
+      "step": "rules",
+      "status": "MATCH",
+      "reason": "Parole richieste trovate: ['ddr4', '32gb']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:21:21"
+    },
+    {
+      "step": "rules",
+      "status": "ACCEPT",
+      "reason": "Regole base OK",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:21:21"
+    },
+    {
+      "step": "context",
+      "status": "REJECT",
+      "reason": "Listing sells complete computer system, not standalone RAM component",
+      "score_delta": 0,
+      "confidence": 10,
+      "data": {
+        "config": "Full computer system with Ryzen 5900X CPU, 32GB DDR4 RAM, and RX 5700 XT GPU bundled together",
+        "price_eur": null
+      },
+      "timestamp": "2026-07-05T17:21:23"
+    },
+    {
+      "step": "decision",
+      "status": "REJECT",
+      "reason": "Context: Listing sells complete computer system, not standalone RAM component",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:21:23"
+    }
+  ]
+}

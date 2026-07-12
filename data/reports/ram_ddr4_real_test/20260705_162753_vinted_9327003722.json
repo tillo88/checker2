@@ -1,0 +1,58 @@
+{
+  "listing": {
+    "id": "vinted_9327003722",
+    "platform": "VINTED",
+    "title": "Lenovo ThinkPad T14s AMD Ryzen 7 Pro 4750U 1,7Ghz 32GB RAM 1 TB SSD FullHD IPS A, brand: Lenovo, mod",
+    "price": 459.0,
+    "url": "https://www.vinted.it/items/9327003722-lenovo-thinkpad-t14s-amd-ryzen-7-pro-4750u-17ghz-32gb-ram-1-tb-ssd-fullhd-ips-a?referrer=catalog",
+    "description": "Lenovo ThinkPad T14s AMD Ryzen 7 Pro 4750U 1,7Ghz 32GB RAM 1 TB SSD FullHD IPS A, brand: Lenovo, mod",
+    "image_url": null,
+    "extra_info": ""
+  },
+  "decision": {
+    "status": "REJECT",
+    "reason": "Prezzo sopra budget",
+    "score": 0,
+    "config": "32gb"
+  },
+  "evidence": [
+    {
+      "step": "rules",
+      "status": "ACCEPT",
+      "reason": "Regole base OK",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T16:27:53"
+    },
+    {
+      "step": "pattern",
+      "status": "ACCEPT",
+      "reason": "Config 32gb: 32gb",
+      "score_delta": 0,
+      "confidence": 85,
+      "data": {},
+      "timestamp": "2026-07-05T16:27:53"
+    },
+    {
+      "step": "budget",
+      "status": "REJECT",
+      "reason": "459EUR / budget 130EUR",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {
+        "budget": 130.0
+      },
+      "timestamp": "2026-07-05T16:27:53"
+    },
+    {
+      "step": "decision",
+      "status": "REJECT",
+      "reason": "Prezzo sopra budget",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T16:27:53"
+    }
+  ]
+}

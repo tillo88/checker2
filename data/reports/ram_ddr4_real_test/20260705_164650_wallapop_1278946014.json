@@ -1,0 +1,38 @@
+{
+  "listing": {
+    "id": "wallapop_1278946014",
+    "platform": "WALLAPOP",
+    "title": "Corsair Vengeance LPX 32GB DDR4 3200MHz",
+    "price": 160.0,
+    "url": "https://it.wallapop.com/item/corsair-vengeance-lpx-32gb-ddr4-3200mhz-1278946014",
+    "description": "Memoria RAM Corsair Vengeance LPX da 32GB (2x16GB) per computer desktop. Aperto a offerte, vendo anche altre parti del mio PC. Velocità: 3200MHz. Latenza: CL16-20-20-38. Voltaggio: 1.35V. Colore: Nero. Modello: CMK32GX4M2E3200C16.",
+    "image_url": null,
+    "extra_info": ""
+  },
+  "decision": {
+    "status": "REJECT",
+    "reason": "Regole base fallite",
+    "score": 0,
+    "config": "standard"
+  },
+  "evidence": [
+    {
+      "step": "rules",
+      "status": "REJECT",
+      "reason": "Parole escluse: ['pc']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T16:46:50"
+    },
+    {
+      "step": "decision",
+      "status": "REJECT",
+      "reason": "Regole base fallite",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T16:46:50"
+    }
+  ]
+}

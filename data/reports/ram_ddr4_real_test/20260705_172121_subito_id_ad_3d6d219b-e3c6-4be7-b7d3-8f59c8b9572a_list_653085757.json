@@ -1,0 +1,59 @@
+{
+  "listing": {
+    "id": "subito_id:ad:3d6d219b-e3c6-4be7-b7d3-8f59c8b9572a:list:653085757",
+    "platform": "SUBITO",
+    "title": "4 RAM Corsair 8gb DDR4 2400MHz",
+    "price": 40.0,
+    "url": "https://www.subito.it/informatica/4-ram-corsair-8gb-ddr4-2400mhz-monza-653085757.htm",
+    "description": "4 RAM Corsair 8gb DDR4 2400MHz",
+    "image_url": null,
+    "extra_info": "Seregno (MB) | Spedizione disponibile"
+  },
+  "decision": {
+    "status": "REJECT",
+    "reason": "Context: Listing unclear if selling RAM standalone vs. full computer",
+    "score": 0,
+    "config": "standard"
+  },
+  "evidence": [
+    {
+      "step": "rules",
+      "status": "MATCH",
+      "reason": "Parole richieste trovate: ['ddr4', 'ram']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:21:18"
+    },
+    {
+      "step": "rules",
+      "status": "ACCEPT",
+      "reason": "Regole base OK",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:21:18"
+    },
+    {
+      "step": "context",
+      "status": "REJECT",
+      "reason": "Listing unclear if selling RAM standalone vs. full computer",
+      "score_delta": 0,
+      "confidence": 25,
+      "data": {
+        "config": "4x8GB DDR4 Corsair sticks (32GB total)",
+        "price_eur": null
+      },
+      "timestamp": "2026-07-05T17:21:21"
+    },
+    {
+      "step": "decision",
+      "status": "REJECT",
+      "reason": "Context: Listing unclear if selling RAM standalone vs. full computer",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:21:21"
+    }
+  ]
+}

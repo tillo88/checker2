@@ -1,0 +1,59 @@
+{
+  "listing": {
+    "id": "vinted_9326980677",
+    "platform": "VINTED",
+    "title": "Lenovo legion 5 – Ryzen 7 5800h | RTX 3070 8Gb | 32Gb Ram | SSD 1TB | 165Hz, brand: Lenovo, modello:",
+    "price": 1800.0,
+    "url": "https://www.vinted.it/items/9326980677-lenovo-legion-5-ryzen-7-5800h-rtx-3070-8gb-32gb-ram-ssd-1tb-165hz?referrer=catalog",
+    "description": "Lenovo legion 5 – Ryzen 7 5800h | RTX 3070 8Gb | 32Gb Ram | SSD 1TB | 165Hz, brand: Lenovo, modello:",
+    "image_url": null,
+    "extra_info": ""
+  },
+  "decision": {
+    "status": "REJECT",
+    "reason": "Context: Listing sells complete gaming laptop, not standalone RAM module",
+    "score": 0,
+    "config": "standard"
+  },
+  "evidence": [
+    {
+      "step": "rules",
+      "status": "MATCH",
+      "reason": "Parole richieste trovate: ['ram', '32gb']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:34:21"
+    },
+    {
+      "step": "rules",
+      "status": "ACCEPT",
+      "reason": "Regole base OK",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:34:21"
+    },
+    {
+      "step": "context",
+      "status": "REJECT",
+      "reason": "Listing sells complete gaming laptop, not standalone RAM module",
+      "score_delta": 0,
+      "confidence": 100,
+      "data": {
+        "config": null,
+        "price_eur": null
+      },
+      "timestamp": "2026-07-05T17:34:23"
+    },
+    {
+      "step": "decision",
+      "status": "REJECT",
+      "reason": "Context: Listing sells complete gaming laptop, not standalone RAM module",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:34:23"
+    }
+  ]
+}

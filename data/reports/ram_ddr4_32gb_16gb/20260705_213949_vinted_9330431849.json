@@ -1,0 +1,47 @@
+{
+  "listing": {
+    "id": "vinted_9330431849",
+    "platform": "VINTED",
+    "title": "Gaming-PC – Ryzen 5 5600X | Arc A770 16 GB | 32 GB RAM | 1 TB NVMe, brand: Custommade, condizioni: O",
+    "price": 1100.0,
+    "url": "https://www.vinted.it/items/9330431849-gaming-pc-ryzen-5-5600x-arc-a770-16-gb-32-gb-ram-1-tb-nvme?referrer=catalog",
+    "description": "Ich verkaufe meinen Gaming-PC, da er derzeit nicht genutzt wird. Der Rechner befindet sich in technisch einwandfreiem Zustand und läuft zuverlässig. Er eignet sich ideal für Gaming in Full HD und WQHD sowie für Streaming, Office-Anwendungen und die Bearbeitung von Bildern und Videos. Technische Daten: AMD Ryzen 5 5600X (6 Kerne / 12 Threads) Intel Arc A770 mit 16 GB Grafikspeicher 32 GB Corsair Vengeance LPX DDR4-RAM 1 TB Lexar NQ790 M.2 NVMe SSD Gigabyte B550 Aorus Elite V2 Mainboard 850 Watt FSP Group 80+ Gold Netzteil NZXT H6 Flow Gehäuse Windows 11 Pro (installiert und sofort einsatzbereit) Der PC wurde sorgfältig gepflegt und kann direkt verwendet werden. Sämtliche Treiber sind installiert, und das System wurde frisch eingerichtet. Eine Besichtigung sowie ein Test vor Ort sind nach Absprache gerne möglich. Bei Fragen können Sie sich jederzeit gerne melden. Privatverkauf – keine Garantie, Gewährleistung oder Rücknahme.",
+    "image_url": "https://marketplace-web-assets.vinted.com/_next/static/media/logo.10w5-fhfapeza.svg",
+    "extra_info": ""
+  },
+  "decision": {
+    "status": "REJECT",
+    "reason": "Regole base fallite",
+    "score": 0,
+    "config": "standard"
+  },
+  "evidence": [
+    {
+      "step": "rules",
+      "status": "MATCH",
+      "reason": "Parole richieste trovate: ['ddr4', 'ram']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T21:39:49"
+    },
+    {
+      "step": "rules",
+      "status": "REJECT",
+      "reason": "Parole escluse: ['pc']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T21:39:49"
+    },
+    {
+      "step": "decision",
+      "status": "REJECT",
+      "reason": "Regole base fallite",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T21:39:49"
+    }
+  ]
+}

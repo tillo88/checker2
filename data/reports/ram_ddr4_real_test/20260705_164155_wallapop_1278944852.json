@@ -1,0 +1,38 @@
+{
+  "listing": {
+    "id": "wallapop_1278944852",
+    "platform": "WALLAPOP",
+    "title": "1 / 6\n450 €\nPC Desktop Bianco Rosso",
+    "price": 450.0,
+    "url": "https://it.wallapop.com/item/pc-desktop-bianco-rosso-1278944852",
+    "description": "Un computer desktop dal design moderno, ideale per studio e ufficio. - Illuminazione LED interna. - Sistema di raffreddamento a liquido. - Pannello frontale con porte USB.16gb di RAM DDR4,i5 9500,z390 Msi,SSD m.2 500gb ,psu 550w corsair.dissipatore a liquido,SSD e psu nuovi.PS Qualora qualcuno acquista scelga per favore BRT o POSTE perché credo che per IN POST il pacco sia troppo grande.58x58x32",
+    "image_url": null,
+    "extra_info": ""
+  },
+  "decision": {
+    "status": "REJECT",
+    "reason": "Regole base fallite",
+    "score": 0,
+    "config": "standard"
+  },
+  "evidence": [
+    {
+      "step": "rules",
+      "status": "REJECT",
+      "reason": "Parole escluse: ['pc']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T16:41:55"
+    },
+    {
+      "step": "decision",
+      "status": "REJECT",
+      "reason": "Regole base fallite",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T16:41:55"
+    }
+  ]
+}

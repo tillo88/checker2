@@ -1,0 +1,38 @@
+{
+  "listing": {
+    "id": "vinted_9327707422",
+    "platform": "VINTED",
+    "title": "Lenovo V530 Tower (Intel), brand: Lenovo, condizioni: Ottime,",
+    "price": 75.0,
+    "url": "https://www.vinted.it/items/9327707422-lenovo-v530-tower-intel?referrer=catalog",
+    "description": "Lenovo V530 Tower (Intel), brand: Lenovo, condizioni: Ottime,",
+    "image_url": null,
+    "extra_info": ""
+  },
+  "decision": {
+    "status": "REJECT",
+    "reason": "Regole base fallite",
+    "score": 0,
+    "config": "standard"
+  },
+  "evidence": [
+    {
+      "step": "rules",
+      "status": "REJECT",
+      "reason": "Manca parola richiesta: ['ddr4', 'ram', 'memoria', '32gb', '16gb']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:34:15"
+    },
+    {
+      "step": "decision",
+      "status": "REJECT",
+      "reason": "Regole base fallite",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:34:15"
+    }
+  ]
+}

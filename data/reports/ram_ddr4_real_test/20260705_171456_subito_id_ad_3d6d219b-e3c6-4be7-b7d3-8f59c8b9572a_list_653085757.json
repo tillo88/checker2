@@ -1,0 +1,94 @@
+{
+  "listing": {
+    "id": "subito_id:ad:3d6d219b-e3c6-4be7-b7d3-8f59c8b9572a:list:653085757",
+    "platform": "SUBITO",
+    "title": "4 RAM Corsair 8gb DDR4 2400MHz",
+    "price": 40.0,
+    "url": "https://www.subito.it/informatica/4-ram-corsair-8gb-ddr4-2400mhz-monza-653085757.htm",
+    "description": "4 RAM Corsair 8gb DDR4 2400MHz",
+    "image_url": null,
+    "extra_info": "Seregno (MB) | Spedizione disponibile"
+  },
+  "decision": {
+    "status": "ACCEPT",
+    "reason": "SUBITO | 40EUR | Score 88/100 | standard",
+    "score": 88,
+    "config": "standard"
+  },
+  "evidence": [
+    {
+      "step": "rules",
+      "status": "MATCH",
+      "reason": "Parole richieste trovate: ['ddr4', 'ram']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:14:56"
+    },
+    {
+      "step": "rules",
+      "status": "ACCEPT",
+      "reason": "Regole base OK",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:14:56"
+    },
+    {
+      "step": "pattern",
+      "status": "ACCEPT",
+      "reason": "Nessun pattern specifico, uso standard",
+      "score_delta": 0,
+      "confidence": 70,
+      "data": {},
+      "timestamp": "2026-07-05T17:14:56"
+    },
+    {
+      "step": "budget",
+      "status": "ACCEPT",
+      "reason": "40EUR / budget 130EUR",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {
+        "budget": 130.0
+      },
+      "timestamp": "2026-07-05T17:14:56"
+    },
+    {
+      "step": "score",
+      "status": "BONUS",
+      "reason": "Marca premium: corsair",
+      "score_delta": 5,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:14:56"
+    },
+    {
+      "step": "score",
+      "status": "BONUS",
+      "reason": "Keyword positiva: corsair",
+      "score_delta": 3,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:14:56"
+    },
+    {
+      "step": "score",
+      "status": "ACCEPT",
+      "reason": "Score finale 88/100",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:14:56"
+    },
+    {
+      "step": "decision",
+      "status": "ACCEPT",
+      "reason": "SUBITO | 40EUR | Score 88/100 | standard",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:14:56"
+    }
+  ]
+}

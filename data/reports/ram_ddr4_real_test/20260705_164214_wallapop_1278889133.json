@@ -1,0 +1,38 @@
+{
+  "listing": {
+    "id": "wallapop_1278889133",
+    "platform": "WALLAPOP",
+    "title": "1 / 6\n390 €\nCaja PC Gaming AeroCool con RGB",
+    "price": 390.0,
+    "url": "https://it.wallapop.com/item/caja-pc-gaming-aerocool-con-rgb-1278889133",
+    "description": "Cassa per PC desktop con design moderno e ventilatori RGB. Pannello frontale a rete per ventilazione. Illuminazione LED RGB. Design spazioso. PC Gaming • TrendingPC • Ryzen 5 5600GT Pro 6X 4,60Ghz • 16Gb RAM DDR4 RGB • 500gb m.2 SSD • AMD Radeon Vega 7 Graphics • Windows 11 • WiFi •",
+    "image_url": null,
+    "extra_info": ""
+  },
+  "decision": {
+    "status": "REJECT",
+    "reason": "Regole base fallite",
+    "score": 0,
+    "config": "standard"
+  },
+  "evidence": [
+    {
+      "step": "rules",
+      "status": "REJECT",
+      "reason": "Parole escluse: ['pc']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T16:42:14"
+    },
+    {
+      "step": "decision",
+      "status": "REJECT",
+      "reason": "Regole base fallite",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T16:42:14"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "listing": {
+    "id": "subito_id:ad:5e59dec1-8f7e-4fbb-b225-e0977d1df511:list:653086329",
+    "platform": "SUBITO",
+    "title": "PC Gaming",
+    "price": 1800.0,
+    "url": "https://www.subito.it/informatica/pc-gaming-verona-653086329.htm",
+    "description": "PC Gaming",
+    "image_url": null,
+    "extra_info": "Verona (VR) | Spedizione disponibile"
+  },
+  "decision": {
+    "status": "REJECT",
+    "reason": "Regole base fallite",
+    "score": 0,
+    "config": "standard"
+  },
+  "evidence": [
+    {
+      "step": "rules",
+      "status": "REJECT",
+      "reason": "Manca parola richiesta: ['ddr4', 'ram', 'memoria', '32gb', '16gb']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:15:53"
+    },
+    {
+      "step": "decision",
+      "status": "REJECT",
+      "reason": "Regole base fallite",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:15:53"
+    }
+  ]
+}

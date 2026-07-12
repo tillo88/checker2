@@ -1,0 +1,47 @@
+{
+  "listing": {
+    "id": "vinted_9330448122",
+    "platform": "VINTED",
+    "title": "Asus rog strix scar 17 G733QS, brand: Asus, modello: ROG Strix Scar 17, condizioni: Nuovo senza cart",
+    "price": 1100.0,
+    "url": "https://www.vinted.it/items/9330448122-asus-rog-strix-scar-17-g733qs?referrer=catalog",
+    "description": "ASUS ROG Strix Scar 17 G733QS - Ryzen 9 / RTX 3080 16GB / 32GB RAM / SSD 1TB Vendo ASUS ROG Strix Scar 17 G733QS in condizioni pari al nuovo, perfettamente funzionante e completo di scatola originale. Caratteristiche tecniche: * Display 17,3\" * AMD Ryzen 9 5900HX (8 core / 16 thread) * NVIDIA GeForce RTX 3080 Laptop 16 GB * 32 GB di RAM DDR4 * SSD NVMe da 1 TB * Windows 11 Home * Tastiera RGB per tasto Aura Sync * Wi-Fi 6 e Bluetooth * Sistema di raffreddamento ROG intelligente Condizioni: Pari al nuovo ✅Nessun difetto hardware ✅Perfettamente funzionante v Scatola originale inclusa ✅Mai riparato Ideale per gaming, editing video, rendering e lavoro professionale Prestazioni: Gestisce senza problemi giochi AAA, eSport, CAD, Photoshop, Premiere Pro, Blender e applicazioni di intelligenza artificiale.",
+    "image_url": "https://marketplace-web-assets.vinted.com/_next/static/media/logo.10w5-fhfapeza.svg",
+    "extra_info": ""
+  },
+  "decision": {
+    "status": "REJECT",
+    "reason": "Regole base fallite",
+    "score": 0,
+    "config": "standard"
+  },
+  "evidence": [
+    {
+      "step": "rules",
+      "status": "MATCH",
+      "reason": "Parole richieste trovate: ['ddr4', 'ram', '32gb', '16gb']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T21:39:38"
+    },
+    {
+      "step": "rules",
+      "status": "REJECT",
+      "reason": "Parole escluse: ['laptop', 'vendo']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T21:39:38"
+    },
+    {
+      "step": "decision",
+      "status": "REJECT",
+      "reason": "Regole base fallite",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T21:39:38"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "listing": {
+    "id": "subito_id:ad:e4a679a1-a478-4875-9093-c668ab67ed3f:list:653082969",
+    "platform": "SUBITO",
+    "title": "Ryzen 5900X X470 32gb ddr4 RX 5700 XT GPU",
+    "price": 650.0,
+    "url": "https://www.subito.it/informatica/ryzen-5900x-x470-32gb-ddr4-rx-5700-xt-gpu-la-spezia-653082969.htm",
+    "description": "Ryzen 5900X X470 32gb ddr4 RX 5700 XT GPU",
+    "image_url": null,
+    "extra_info": "Sarzana (SP) | Spedizione disponibile"
+  },
+  "decision": {
+    "status": "REJECT",
+    "reason": "Prezzo sopra budget",
+    "score": 0,
+    "config": "32gb"
+  },
+  "evidence": [
+    {
+      "step": "rules",
+      "status": "MATCH",
+      "reason": "Parole richieste trovate: ['ddr4', '32gb']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:17:56"
+    },
+    {
+      "step": "rules",
+      "status": "ACCEPT",
+      "reason": "Regole base OK",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:17:56"
+    },
+    {
+      "step": "context",
+      "status": "SKIP",
+      "reason": "Context AI abilitata ma llama non disponibile",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:17:56"
+    },
+    {
+      "step": "pattern",
+      "status": "ACCEPT",
+      "reason": "Config 32gb: 32gb",
+      "score_delta": 0,
+      "confidence": 85,
+      "data": {},
+      "timestamp": "2026-07-05T17:17:56"
+    },
+    {
+      "step": "budget",
+      "status": "REJECT",
+      "reason": "650EUR / budget 130EUR",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {
+        "budget": 130.0
+      },
+      "timestamp": "2026-07-05T17:17:56"
+    },
+    {
+      "step": "decision",
+      "status": "REJECT",
+      "reason": "Prezzo sopra budget",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:17:56"
+    }
+  ]
+}

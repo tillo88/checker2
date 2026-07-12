@@ -1,0 +1,38 @@
+{
+  "listing": {
+    "id": "vinted_9326874004",
+    "platform": "VINTED",
+    "title": "CorsairOttime200,00 €210,70 €incl.",
+    "price": 200.0,
+    "url": "https://www.vinted.it/items/9326874004-corsair-vengeance-ddr4-32gb-3000mhz?referrer=catalog",
+    "description": "CorsairOttime200,00 €210,70 €incl.",
+    "image_url": null,
+    "extra_info": ""
+  },
+  "decision": {
+    "status": "REJECT",
+    "reason": "Regole base fallite",
+    "score": 0,
+    "config": "standard"
+  },
+  "evidence": [
+    {
+      "step": "rules",
+      "status": "REJECT",
+      "reason": "Manca parola richiesta: ['ddr4', 'ram', 'memoria', '32gb', '16gb']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T16:19:11"
+    },
+    {
+      "step": "decision",
+      "status": "REJECT",
+      "reason": "Regole base fallite",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T16:19:11"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "listing": {
+    "id": "vinted_4835924563702412607",
+    "platform": "VINTED",
+    "title": "hubsivintagewien261Visualizza utente che vende2KingstonOttime40,00 €42,70 €incl.1KingstonOttime35,00 €37,45 €incl.3KingstonOttime70,00 €74,20 €incl.3KingstonOttime20,00 €21,70 €incl.g.skillOttime12,00 €13,30 €incl.Halskette mit Delfin-Anhänger Schwarz SilberfarbenOttime10,00 €11,20 €incl.1Adamo - Supergold Doppel-LP VinylOttime10,00 €11,20 €incl.2Antiker Keramik Kerzenständer Putto Engel A-Form KrakeleeOttime80,00 €84,70 €incl.pgaOttime25,00 €26,95 €incl.SennheiserOttime35,00 €37,45 €incl.OVSS / IT 40 / EU 36 · Ottime15,00 €16,45 €incl.TONIL / IT 44 / EU 40 · Ottime20,00 €21,70 €incl.s.OliverM / IT 42 / EU 38 · Ottime6,00 €7,00 €incl.5Vintage Serviettenhalter Metall SilberfarbenOttime15,00 €16,45 €incl.Hemd Dunkelblau Druckknöpfe Brusttaschen Gr. 44/46XXL / IT 48 / EU 44 · Ottime15,00 €16,45 €incl.Visualizza tutti i 2561 articoliVetrina",
+    "price": 261.0,
+    "url": "https://www.vinted.it/member/290160603",
+    "description": "hubsivintagewien261Visualizza utente che vende2KingstonOttime40,00 €42,70 €incl.1KingstonOttime35,00 €37,45 €incl.3KingstonOttime70,00 €74,20 €incl.3KingstonOttime20,00 €21,70 €incl.g.skillOttime12,00 €13,30 €incl.Halskette mit Delfin-Anhänger Schwarz SilberfarbenOttime10,00 €11,20 €incl.1Adamo - Supergold Doppel-LP VinylOttime10,00 €11,20 €incl.2Antiker Keramik Kerzenständer Putto Engel A-Form KrakeleeOttime80,00 €84,70 €incl.pgaOttime25,00 €26,95 €incl.SennheiserOttime35,00 €37,45 €incl.OVSS / IT 40 / EU 36 · Ottime15,00 €16,45 €incl.TONIL / IT 44 / EU 40 · Ottime20,00 €21,70 €incl.s.OliverM / IT 42 / EU 38 · Ottime6,00 €7,00 €incl.5Vintage Serviettenhalter Metall SilberfarbenOttime15,00 €16,45 €incl.Hemd Dunkelblau Druckknöpfe Brusttaschen Gr. 44/46XXL / IT 48 / EU 44 · Ottime15,00 €16,45 €incl.Visualizza tutti i 2561 articoliVetrina",
+    "image_url": "https://marketplace-web-assets.vinted.com/_next/static/media/logo.10w5-fhfapeza.svg",
+    "extra_info": ""
+  },
+  "decision": {
+    "status": "REJECT",
+    "reason": "Prezzo sopra budget",
+    "score": 0,
+    "config": "standard"
+  },
+  "evidence": [
+    {
+      "step": "rules",
+      "status": "ACCEPT",
+      "reason": "Regole base OK",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T15:59:20"
+    },
+    {
+      "step": "pattern",
+      "status": "ACCEPT",
+      "reason": "Nessun pattern specifico, uso standard",
+      "score_delta": 0,
+      "confidence": 70,
+      "data": {},
+      "timestamp": "2026-07-05T15:59:20"
+    },
+    {
+      "step": "budget",
+      "status": "REJECT",
+      "reason": "261EUR / budget 130EUR",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {
+        "budget": 130.0
+      },
+      "timestamp": "2026-07-05T15:59:20"
+    },
+    {
+      "step": "decision",
+      "status": "REJECT",
+      "reason": "Prezzo sopra budget",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T15:59:20"
+    }
+  ]
+}

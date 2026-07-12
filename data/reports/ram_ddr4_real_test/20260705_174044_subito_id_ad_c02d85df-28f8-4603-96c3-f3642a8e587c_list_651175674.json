@@ -1,0 +1,47 @@
+{
+  "listing": {
+    "id": "subito_id:ad:c02d85df-28f8-4603-96c3-f3642a8e587c:list:651175674",
+    "platform": "SUBITO",
+    "title": "PC Gaming , Ryzen 7 3700X , RX 5700 XT, 1,5TB/16GB",
+    "price": 599.0,
+    "url": "https://www.subito.it/informatica/pc-gaming-ryzen-7-3700x-rx-5700-xt-1-5tb-16gb-padova-651175674.htm",
+    "description": "PC Gaming , Ryzen 7 3700X , RX 5700 XT, 1,5TB/16GB",
+    "image_url": null,
+    "extra_info": "Piove di Sacco (PD) | Spedizione disponibile"
+  },
+  "decision": {
+    "status": "REJECT",
+    "reason": "Regole base fallite",
+    "score": 0,
+    "config": "standard"
+  },
+  "evidence": [
+    {
+      "step": "rules",
+      "status": "MATCH",
+      "reason": "Parole richieste trovate: ['16gb']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:40:44"
+    },
+    {
+      "step": "rules",
+      "status": "REJECT",
+      "reason": "Parole escluse: ['pc']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:40:44"
+    },
+    {
+      "step": "decision",
+      "status": "REJECT",
+      "reason": "Regole base fallite",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:40:44"
+    }
+  ]
+}

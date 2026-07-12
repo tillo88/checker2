@@ -1,0 +1,47 @@
+{
+  "listing": {
+    "id": "vinted_9330775475",
+    "platform": "VINTED",
+    "title": "Uniter gamer amd 3700x 32giga ddr4 rtx 3060 ti, brand: Customized, condizioni: Ottime,",
+    "price": 500.0,
+    "url": "https://www.vinted.it/items/9330775475-uniter-gamer-amd-3700x-32giga-ddr4-rtx-3060-ti?referrer=catalog",
+    "description": "Je vend un pc gamer en tres bonne etat Ryzen 3700x Rtx 3060 ti 8giga Boitier deepcool ch270 Alimentation seasonic 850 2xssd 256 giga 2x32 giga ddr4 Ventirad bequit Et 6 fan Cable management niquel",
+    "image_url": "https://marketplace-web-assets.vinted.com/_next/static/media/logo.10w5-fhfapeza.svg",
+    "extra_info": ""
+  },
+  "decision": {
+    "status": "REJECT",
+    "reason": "Regole base fallite",
+    "score": 0,
+    "config": "standard"
+  },
+  "evidence": [
+    {
+      "step": "rules",
+      "status": "MATCH",
+      "reason": "Parole richieste trovate: ['ddr4']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T21:39:25"
+    },
+    {
+      "step": "rules",
+      "status": "REJECT",
+      "reason": "Parole escluse: ['pc']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T21:39:25"
+    },
+    {
+      "step": "decision",
+      "status": "REJECT",
+      "reason": "Regole base fallite",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T21:39:25"
+    }
+  ]
+}

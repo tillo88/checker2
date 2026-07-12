@@ -1,0 +1,38 @@
+{
+  "listing": {
+    "id": "wallapop_1278935577",
+    "platform": "WALLAPOP",
+    "title": "ThinkPad P14s Gen3 i7 32RAM Nvidia 4GB 500NVMe",
+    "price": 399.0,
+    "url": "https://it.wallapop.com/item/thinkpad-p14s-gen3-i7-32ram-nvidia-4gb-500nvme-1278935577",
+    "description": "Lenovo ThinkPad P14s Gen 3, workstation leggera e ad alte prestazioni da 14''. Processore: Intel® CoreTM i7 di 12ª generazione (14 core). Adattatori video: Intel® Iris® Xe Graphics 128 (VRAM) e Nvidia T550 Laptop GPU 3946 (VRAM). Sistema operativo: Windows 11 Pro 25H2. Memoria RAM: 32 GB DDR4. Unità disco: 500 GB NVMe Gen4. Schermo: touch screen da 14,0''. Intel® ThunderboltTM 4. Tastiera retroilluminata. Batteria al 98% della sua capacità (praticamente nuova). Caricatore originale. (Con consegna a mano sconto di 20€)",
+    "image_url": null,
+    "extra_info": ""
+  },
+  "decision": {
+    "status": "REJECT",
+    "reason": "Regole base fallite",
+    "score": 0,
+    "config": "standard"
+  },
+  "evidence": [
+    {
+      "step": "rules",
+      "status": "REJECT",
+      "reason": "Parole escluse: ['laptop']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T16:47:16"
+    },
+    {
+      "step": "decision",
+      "status": "REJECT",
+      "reason": "Regole base fallite",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T16:47:16"
+    }
+  ]
+}

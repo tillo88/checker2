@@ -1,0 +1,79 @@
+{
+  "listing": {
+    "id": "vinted_9327826717",
+    "platform": "VINTED",
+    "title": "Ram 16 et 32gb ddr4, brand: Ram, condizioni: Ottime,",
+    "price": 1250.0,
+    "url": "https://www.vinted.it/items/9327826717-ram-16-et-32gb-ddr4?referrer=catalog",
+    "description": "Ram 16 et 32gb ddr4, brand: Ram, condizioni: Ottime,",
+    "image_url": null,
+    "extra_info": ""
+  },
+  "decision": {
+    "status": "REJECT",
+    "reason": "Prezzo sopra budget",
+    "score": 0,
+    "config": "DDR4 RAM, 16GB or 32GB, single bank"
+  },
+  "evidence": [
+    {
+      "step": "rules",
+      "status": "MATCH",
+      "reason": "Parole richieste trovate: ['ddr4', 'ram', '32gb']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:34:12"
+    },
+    {
+      "step": "rules",
+      "status": "ACCEPT",
+      "reason": "Regole base OK",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:34:12"
+    },
+    {
+      "step": "context",
+      "status": "ACCEPT",
+      "reason": "Standalone RAM modules listed, no computer/bundle mentioned",
+      "score_delta": 0,
+      "confidence": 85,
+      "data": {
+        "config": "DDR4 RAM, 16GB or 32GB, single bank",
+        "price_eur": null
+      },
+      "timestamp": "2026-07-05T17:34:15"
+    },
+    {
+      "step": "pattern",
+      "status": "ACCEPT",
+      "reason": "Config 32gb: 32gb",
+      "score_delta": 0,
+      "confidence": 85,
+      "data": {},
+      "timestamp": "2026-07-05T17:34:15"
+    },
+    {
+      "step": "budget",
+      "status": "REJECT",
+      "reason": "1250EUR / budget 130EUR",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {
+        "budget": 130.0
+      },
+      "timestamp": "2026-07-05T17:34:15"
+    },
+    {
+      "step": "decision",
+      "status": "REJECT",
+      "reason": "Prezzo sopra budget",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:34:15"
+    }
+  ]
+}

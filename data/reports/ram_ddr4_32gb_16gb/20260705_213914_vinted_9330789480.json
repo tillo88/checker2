@@ -1,0 +1,47 @@
+{
+  "listing": {
+    "id": "vinted_9330789480",
+    "platform": "VINTED",
+    "title": "Tour à vendre, ou vente de composant, brand: Custommade, condizioni: Ottime,",
+    "price": 800.0,
+    "url": "https://www.vinted.it/items/9330789480-tour-a-vendre-ou-vente-de-composant?referrer=catalog",
+    "description": "Je vends cette tour gaming avec boîtier RGB et refroidissement performant, idéale pour les jeux vidéo. - Type de produit : PC fixe gaming - Utilisation : Gaming Détaille des composants : - Processeur 12th Gen intel(r) Core(TM) i5-12600kf - Mémoire 32 go ddr4 - Carte graphique Amd Radeon RX 7600 - Disque 2 tera WD_black sn770 2tb - 2 Carte réseau Realtek Gaming 2.5 gbe family controller - 4 ventilo + 2 carte graphique - Carte mere PRO B760-P WIFI DDR4 (MS-7D98) - Boîtier : Tour gaming avec éclairage RGB personnalisable - Refroidissement : Système de refroidissement multi-ventilateurs avec éclairage RGB - Connectique : Ports USB multiples, connecteurs standards Très bon état Je vend aussi les composant au détail, n'hésitez pas à me contacter pour plus d'informations ou de photos.",
+    "image_url": "https://marketplace-web-assets.vinted.com/_next/static/media/logo.10w5-fhfapeza.svg",
+    "extra_info": ""
+  },
+  "decision": {
+    "status": "REJECT",
+    "reason": "Regole base fallite",
+    "score": 0,
+    "config": "standard"
+  },
+  "evidence": [
+    {
+      "step": "rules",
+      "status": "MATCH",
+      "reason": "Parole richieste trovate: ['ddr4']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T21:39:14"
+    },
+    {
+      "step": "rules",
+      "status": "REJECT",
+      "reason": "Parole escluse: ['pc']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T21:39:14"
+    },
+    {
+      "step": "decision",
+      "status": "REJECT",
+      "reason": "Regole base fallite",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T21:39:14"
+    }
+  ]
+}

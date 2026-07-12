@@ -1,0 +1,38 @@
+{
+  "listing": {
+    "id": "vinted_9324557095",
+    "platform": "VINTED",
+    "title": "2AMDNuovo senza cartellino1135,00 €1192,45 €incl.",
+    "price": 2.0,
+    "url": "https://www.vinted.it/items/9324557095-r7-9700x-rx9070-gaming-pc?referrer=catalog",
+    "description": "2AMDNuovo senza cartellino1135,00 €1192,45 €incl.",
+    "image_url": null,
+    "extra_info": ""
+  },
+  "decision": {
+    "status": "REJECT",
+    "reason": "Regole base fallite",
+    "score": 0,
+    "config": "standard"
+  },
+  "evidence": [
+    {
+      "step": "rules",
+      "status": "REJECT",
+      "reason": "Manca parola richiesta: ['ddr4', 'ram', 'memoria', '32gb', '16gb']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T15:59:26"
+    },
+    {
+      "step": "decision",
+      "status": "REJECT",
+      "reason": "Regole base fallite",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T15:59:26"
+    }
+  ]
+}

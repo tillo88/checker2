@@ -1,0 +1,79 @@
+{
+  "listing": {
+    "id": "vinted_9329797426",
+    "platform": "VINTED",
+    "title": "RAM 32GB Corsair Vengeance LPX DDR4 2400Mhz, brand: Corsair, condizioni: Ottime,",
+    "price": 200.0,
+    "url": "https://www.vinted.it/items/9329797426-ram-32gb-corsair-vengeance-lpx-ddr4-2400mhz?referrer=catalog",
+    "description": "RAM 32GB Corsair Vengeance LPX DDR4 2400Mhz 2x16GB En très bon état, fonctionne parfaitement, vendu dans son emballage d’origine. Envoi rapide et soigné.",
+    "image_url": "https://marketplace-web-assets.vinted.com/_next/static/media/logo.10w5-fhfapeza.svg",
+    "extra_info": ""
+  },
+  "decision": {
+    "status": "REJECT",
+    "reason": "Prezzo sopra budget",
+    "score": 0,
+    "config": "DDR4 32GB Corsair Vengeance LPX 2x16GB"
+  },
+  "evidence": [
+    {
+      "step": "rules",
+      "status": "MATCH",
+      "reason": "Parole richieste trovate: ['ddr4', 'ram', '32gb', '16gb']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T21:40:13"
+    },
+    {
+      "step": "rules",
+      "status": "ACCEPT",
+      "reason": "Regole base OK",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T21:40:13"
+    },
+    {
+      "step": "context",
+      "status": "ACCEPT",
+      "reason": "Standalone RAM module, matches DDR4 32GB non-ECC requirements",
+      "score_delta": 0,
+      "confidence": 95,
+      "data": {
+        "config": "DDR4 32GB Corsair Vengeance LPX 2x16GB",
+        "price_eur": null
+      },
+      "timestamp": "2026-07-05T21:40:40"
+    },
+    {
+      "step": "pattern",
+      "status": "ACCEPT",
+      "reason": "Config 32gb: 32gb",
+      "score_delta": 0,
+      "confidence": 85,
+      "data": {},
+      "timestamp": "2026-07-05T21:40:40"
+    },
+    {
+      "step": "budget",
+      "status": "REJECT",
+      "reason": "200EUR / budget 130EUR",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {
+        "budget": 130.0
+      },
+      "timestamp": "2026-07-05T21:40:40"
+    },
+    {
+      "step": "decision",
+      "status": "REJECT",
+      "reason": "Prezzo sopra budget",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T21:40:40"
+    }
+  ]
+}

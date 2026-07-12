@@ -1,0 +1,38 @@
+{
+  "listing": {
+    "id": "vinted_9325981148",
+    "platform": "VINTED",
+    "title": "3HP Elitebook 850Ottime370,00 €389,20 €incl.",
+    "price": 3.0,
+    "url": "https://www.vinted.it/items/9325981148-hp-elitebook-156-core-vpro-i7-11th-32-go-ram-512-go-ssd-carte-graphique-nvidia?referrer=catalog",
+    "description": "3HP Elitebook 850Ottime370,00 €389,20 €incl.",
+    "image_url": "https://marketplace-web-assets.vinted.com/_next/static/media/logo.10w5-fhfapeza.svg",
+    "extra_info": ""
+  },
+  "decision": {
+    "status": "REJECT",
+    "reason": "Regole base fallite",
+    "score": 0,
+    "config": "standard"
+  },
+  "evidence": [
+    {
+      "step": "rules",
+      "status": "REJECT",
+      "reason": "Manca parola richiesta: ['ddr4', 'ram', 'memoria', '32gb', '16gb']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T15:58:12"
+    },
+    {
+      "step": "decision",
+      "status": "REJECT",
+      "reason": "Regole base fallite",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T15:58:12"
+    }
+  ]
+}

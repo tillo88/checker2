@@ -1,0 +1,38 @@
+{
+  "listing": {
+    "id": "subito_id:ad:cd04d199-c267-4a0c-a3fe-9d5bf1473d9d:list:651644576",
+    "platform": "SUBITO",
+    "title": "🖥️ PC Gaming + Kit Accessori + Giochi - Top 🔝",
+    "price": 699.0,
+    "url": "https://www.subito.it/informatica/pc-gaming-kit-accessori-giochi-top-caserta-651644576.htm",
+    "description": "🖥️ PC Gaming + Kit Accessori + Giochi - Top 🔝",
+    "image_url": null,
+    "extra_info": "Caianello (CE) | Spedizione disponibile"
+  },
+  "decision": {
+    "status": "REJECT",
+    "reason": "Regole base fallite",
+    "score": 0,
+    "config": "standard"
+  },
+  "evidence": [
+    {
+      "step": "rules",
+      "status": "REJECT",
+      "reason": "Manca parola richiesta: ['ddr4', 'ram', 'memoria', '32gb', '16gb']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:40:42"
+    },
+    {
+      "step": "decision",
+      "status": "REJECT",
+      "reason": "Regole base fallite",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:40:42"
+    }
+  ]
+}

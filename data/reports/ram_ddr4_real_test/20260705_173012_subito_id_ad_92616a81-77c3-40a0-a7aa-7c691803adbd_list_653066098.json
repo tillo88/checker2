@@ -1,0 +1,59 @@
+{
+  "listing": {
+    "id": "subito_id:ad:92616a81-77c3-40a0-a7aa-7c691803adbd:list:653066098",
+    "platform": "SUBITO",
+    "title": "Acer Nitro V 15 – RTX 5050 ,I7 13620H, 32GB RAM",
+    "price": 900.0,
+    "url": "https://www.subito.it/informatica/acer-nitro-v-15-rtx-5050-i7-13620h-32gb-ram-padova-653066098.htm",
+    "description": "Acer Nitro V 15 – RTX 5050 ,I7 13620H, 32GB RAM",
+    "image_url": null,
+    "extra_info": "Padova (PD) | Spedizione disponibile"
+  },
+  "decision": {
+    "status": "REJECT",
+    "reason": "Context: Selling complete computer system, not standalone RAM",
+    "score": 0,
+    "config": "standard"
+  },
+  "evidence": [
+    {
+      "step": "rules",
+      "status": "MATCH",
+      "reason": "Parole richieste trovate: ['ram', '32gb']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:30:09"
+    },
+    {
+      "step": "rules",
+      "status": "ACCEPT",
+      "reason": "Regole base OK",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:30:09"
+    },
+    {
+      "step": "context",
+      "status": "REJECT",
+      "reason": "Selling complete computer system, not standalone RAM",
+      "score_delta": 0,
+      "confidence": 100,
+      "data": {
+        "config": "Acer Nitro V 15 motherboard with RTX 5050 graphics, Intel i7 13620H CPU, 32GB RAM",
+        "price_eur": null
+      },
+      "timestamp": "2026-07-05T17:30:12"
+    },
+    {
+      "step": "decision",
+      "status": "REJECT",
+      "reason": "Context: Selling complete computer system, not standalone RAM",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:30:12"
+    }
+  ]
+}

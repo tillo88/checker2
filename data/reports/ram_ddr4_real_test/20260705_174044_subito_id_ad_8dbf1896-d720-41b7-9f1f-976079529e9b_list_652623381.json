@@ -1,0 +1,59 @@
+{
+  "listing": {
+    "id": "subito_id:ad:8dbf1896-d720-41b7-9f1f-976079529e9b:list:652623381",
+    "platform": "SUBITO",
+    "title": "Kit RAM Corsair ddr4 32GB (2×16GB) 3200MHz so-dimm",
+    "price": 250.0,
+    "url": "https://www.subito.it/informatica/kit-ram-corsair-ddr4-32gb-2-16gb-3200mhz-so-dimm-siracusa-652623381.htm",
+    "description": "Kit RAM Corsair ddr4 32GB (2×16GB) 3200MHz so-dimm",
+    "image_url": null,
+    "extra_info": "Siracusa (SR) | Spedizione disponibile"
+  },
+  "decision": {
+    "status": "REJECT",
+    "reason": "Context: Kit bundle with SODIMM variant, not standalone component matching requirements",
+    "score": 0,
+    "config": "standard"
+  },
+  "evidence": [
+    {
+      "step": "rules",
+      "status": "MATCH",
+      "reason": "Parole richieste trovate: ['ddr4', 'ram', '32gb', '16gb']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:40:42"
+    },
+    {
+      "step": "rules",
+      "status": "ACCEPT",
+      "reason": "Regole base OK",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:40:42"
+    },
+    {
+      "step": "context",
+      "status": "REJECT",
+      "reason": "Kit bundle with SODIMM variant, not standalone component matching requirements",
+      "score_delta": 0,
+      "confidence": 85,
+      "data": {
+        "config": "Kit RAM DDR4 32GB (2×16GB) SODIMM",
+        "price_eur": null
+      },
+      "timestamp": "2026-07-05T17:40:44"
+    },
+    {
+      "step": "decision",
+      "status": "REJECT",
+      "reason": "Context: Kit bundle with SODIMM variant, not standalone component matching requirements",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:40:44"
+    }
+  ]
+}

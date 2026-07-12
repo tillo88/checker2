@@ -1,0 +1,38 @@
+{
+  "listing": {
+    "id": "vinted_9326879976",
+    "platform": "VINTED",
+    "title": "SapphireOttime149,99 €158,19 €incl.",
+    "price": 149.99,
+    "url": "https://www.vinted.it/items/9326879976-sapphire-radeon-rx-5600-xt-pulse-oc-6gb?referrer=catalog",
+    "description": "SapphireOttime149,99 €158,19 €incl.",
+    "image_url": null,
+    "extra_info": ""
+  },
+  "decision": {
+    "status": "REJECT",
+    "reason": "Regole base fallite",
+    "score": 0,
+    "config": "standard"
+  },
+  "evidence": [
+    {
+      "step": "rules",
+      "status": "REJECT",
+      "reason": "Manca parola richiesta: ['ddr4', 'ram', 'memoria', '32gb', '16gb']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T16:19:11"
+    },
+    {
+      "step": "decision",
+      "status": "REJECT",
+      "reason": "Regole base fallite",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T16:19:11"
+    }
+  ]
+}

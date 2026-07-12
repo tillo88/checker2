@@ -1,0 +1,38 @@
+{
+  "listing": {
+    "id": "subito_id:ad:7bc88ee6-b68c-4fcf-8ff3-024d67f61eb6:list:653065978",
+    "platform": "SUBITO",
+    "title": "HP EliteDesk 800 G2 Mini PC",
+    "price": 120.0,
+    "url": "https://www.subito.it/informatica/hp-elitedesk-800-g2-mini-pc-trento-653065978.htm",
+    "description": "HP EliteDesk 800 G2 Mini PC",
+    "image_url": null,
+    "extra_info": "Dro (TN) | Spedizione disponibile"
+  },
+  "decision": {
+    "status": "REJECT",
+    "reason": "Regole base fallite",
+    "score": 0,
+    "config": "standard"
+  },
+  "evidence": [
+    {
+      "step": "rules",
+      "status": "REJECT",
+      "reason": "Manca parola richiesta: ['ddr4', 'ram', 'memoria', '32gb', '16gb']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:30:12"
+    },
+    {
+      "step": "decision",
+      "status": "REJECT",
+      "reason": "Regole base fallite",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:30:12"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "listing": {
+    "id": "vinted_5756131825965799979",
+    "platform": "VINTED",
+    "title": "cp146813Visualizza utente che vende7CrucialOttime150,00 €158,20 €incl.5SKOttime160,00 €168,70 €incl.5SamsungOttime160,00 €168,70 €incl.5SamsungOttime150,00 €158,20 €incl.3SKOttime160,00 €168,70 €incl.1SKOttime400,00 €420,70 €incl.1KingstonNuovo con cartellino95,00 €100,45 €incl.Visualizza tutti i 7 articoliVetrina",
+    "price": 146813.0,
+    "url": "https://www.vinted.it/member/94762301",
+    "description": "cp146813Visualizza utente che vende7CrucialOttime150,00 €158,20 €incl.5SKOttime160,00 €168,70 €incl.5SamsungOttime160,00 €168,70 €incl.5SamsungOttime150,00 €158,20 €incl.3SKOttime160,00 €168,70 €incl.1SKOttime400,00 €420,70 €incl.1KingstonNuovo con cartellino95,00 €100,45 €incl.Visualizza tutti i 7 articoliVetrina",
+    "image_url": "https://marketplace-web-assets.vinted.com/_next/static/media/logo.10w5-fhfapeza.svg",
+    "extra_info": ""
+  },
+  "decision": {
+    "status": "REJECT",
+    "reason": "Regole base fallite",
+    "score": 0,
+    "config": "standard"
+  },
+  "evidence": [
+    {
+      "step": "rules",
+      "status": "REJECT",
+      "reason": "Manca parola richiesta: ['ddr4', 'ram', 'memoria', '32gb', '16gb']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T15:58:16"
+    },
+    {
+      "step": "decision",
+      "status": "REJECT",
+      "reason": "Regole base fallite",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T15:58:16"
+    }
+  ]
+}

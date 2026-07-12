@@ -1,0 +1,79 @@
+{
+  "listing": {
+    "id": "subito_id:ad:d3075766-c865-4b33-900f-e819820dc46c:list:653071888",
+    "platform": "SUBITO",
+    "title": "RAM DDR4 32gb 3600mhz CORSAIR RGB",
+    "price": 200.0,
+    "url": "https://www.subito.it/informatica/ram-ddr4-32gb-3600mhz-corsair-rgb-brescia-653071888.htm",
+    "description": "RAM DDR4 32gb 3600mhz CORSAIR RGB",
+    "image_url": null,
+    "extra_info": "Calcinato (BS) | Spedizione disponibile"
+  },
+  "decision": {
+    "status": "REJECT",
+    "reason": "Prezzo sopra budget",
+    "score": 0,
+    "config": "DDR4 32GB 3600MHz CORSAIR RGB"
+  },
+  "evidence": [
+    {
+      "step": "rules",
+      "status": "MATCH",
+      "reason": "Parole richieste trovate: ['ddr4', 'ram', '32gb']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:30:06"
+    },
+    {
+      "step": "rules",
+      "status": "ACCEPT",
+      "reason": "Regole base OK",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:30:06"
+    },
+    {
+      "step": "context",
+      "status": "ACCEPT",
+      "reason": "Standalone DDR4 RAM stick, 32GB, matches requested specs",
+      "score_delta": 0,
+      "confidence": 85,
+      "data": {
+        "config": "DDR4 32GB 3600MHz CORSAIR RGB",
+        "price_eur": null
+      },
+      "timestamp": "2026-07-05T17:30:09"
+    },
+    {
+      "step": "pattern",
+      "status": "ACCEPT",
+      "reason": "Config 32gb: 32gb",
+      "score_delta": 0,
+      "confidence": 85,
+      "data": {},
+      "timestamp": "2026-07-05T17:30:09"
+    },
+    {
+      "step": "budget",
+      "status": "REJECT",
+      "reason": "200EUR / budget 130EUR",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {
+        "budget": 130.0
+      },
+      "timestamp": "2026-07-05T17:30:09"
+    },
+    {
+      "step": "decision",
+      "status": "REJECT",
+      "reason": "Prezzo sopra budget",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:30:09"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "listing": {
+    "id": "wallapop_1278926230",
+    "platform": "WALLAPOP",
+    "title": "1 / 2\n775 €\nPC Dell Pro QCT1250 Intel Core Ultra 7",
+    "price": 775.0,
+    "url": "https://it.wallapop.com/item/pc-dell-pro-qct1250-intel-core-ultra-7-1278926230",
+    "description": "Molto potente, computer desktop Dell Pro QCT1250 con processore Intel Core Ultra 7 - Processore: Intel Core Ultra 7 265 - Unità di elaborazione: Intel AI Boost, accelerazione IA dedicata - Memoria RAM: 16 GB, espandibile fino a 64 GB - Archiviazione: SSD NVMe 512 GB - Grafica integrata: Intel Graphics compatibile 4k - Sistema operativo: Windows 11 Pro 64-bit - Porte USB: 4 x USB 2.0, 3 x USB 3.2 Gen 1 tipo A, 1 x USB Gen 1 tipo C (2 con Powershare) - NUOVO senza utilizzo ✅",
+    "image_url": null,
+    "extra_info": ""
+  },
+  "decision": {
+    "status": "REJECT",
+    "reason": "Regole base fallite",
+    "score": 0,
+    "config": "standard"
+  },
+  "evidence": [
+    {
+      "step": "rules",
+      "status": "REJECT",
+      "reason": "Parole escluse: ['pc']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T16:42:11"
+    },
+    {
+      "step": "decision",
+      "status": "REJECT",
+      "reason": "Regole base fallite",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T16:42:11"
+    }
+  ]
+}

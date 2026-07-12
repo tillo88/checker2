@@ -1,0 +1,47 @@
+{
+  "listing": {
+    "id": "wallapop_1278953213",
+    "platform": "WALLAPOP",
+    "title": "Computer portatile Dell Latitude 5480 i5 da 32 GB + 16 GB",
+    "price": 190.0,
+    "url": "https://it.wallapop.com/item/portatil-dell-latitude-5480-i5-32gb---16gb-1278953213",
+    "description": "Attrezzatura professionale da 14\" robusta e affidabile. Ideale per homelab, virtualizzazione, telelavoro, programmazione o studio. Caratteristiche: * Processore Intel Core i5 vPro 6300U * RAM DDR4 da 32 GB (2x16 GB): appena espansa * Memoria SSD da 256 GB * Schermo da 14\" * Tastiera Spagnola retroilluminata * Lettore di impronte digitali * Porte USB, USB-C, HDMI, VGA, RJ45, slot SIM * Caricatore Dell originale incluso Extra: sono incluse anche le DDR4 originali da 2 x 8 GB (16 GB) in dotazione, nel caso in cui si desideri una seconda configurazione o rivendita. Lo installo con il sistema operativo che preferisci (Windows o qualsiasi distribuzione Linux).",
+    "image_url": null,
+    "extra_info": ""
+  },
+  "decision": {
+    "status": "REJECT",
+    "reason": "Regole base fallite",
+    "score": 0,
+    "config": "standard"
+  },
+  "evidence": [
+    {
+      "step": "rules",
+      "status": "MATCH",
+      "reason": "Parole richieste trovate: ['ddr4', 'ram', 'memoria']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:38:49"
+    },
+    {
+      "step": "rules",
+      "status": "REJECT",
+      "reason": "Distrattori: ['processore']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:38:49"
+    },
+    {
+      "step": "decision",
+      "status": "REJECT",
+      "reason": "Regole base fallite",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:38:49"
+    }
+  ]
+}

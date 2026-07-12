@@ -1,0 +1,38 @@
+{
+  "listing": {
+    "id": "vinted_9325744426",
+    "platform": "VINTED",
+    "title": "2CorsairOttime159,00 €167,65 €incl.",
+    "price": 2.0,
+    "url": "https://www.vinted.it/items/9325744426-corsair-vengeance-lpx-ram-ddr4-32gb-2x16-3000-mhz-c16?referrer=catalog",
+    "description": "2CorsairOttime159,00 €167,65 €incl.",
+    "image_url": "https://marketplace-web-assets.vinted.com/_next/static/media/logo.10w5-fhfapeza.svg",
+    "extra_info": ""
+  },
+  "decision": {
+    "status": "REJECT",
+    "reason": "Regole base fallite",
+    "score": 0,
+    "config": "standard"
+  },
+  "evidence": [
+    {
+      "step": "rules",
+      "status": "REJECT",
+      "reason": "Manca parola richiesta: ['ddr4', 'ram', 'memoria', '32gb', '16gb']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T15:58:19"
+    },
+    {
+      "step": "decision",
+      "status": "REJECT",
+      "reason": "Regole base fallite",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T15:58:19"
+    }
+  ]
+}

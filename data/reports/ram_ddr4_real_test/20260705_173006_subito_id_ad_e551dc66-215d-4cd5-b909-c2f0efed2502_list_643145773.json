@@ -1,0 +1,38 @@
+{
+  "listing": {
+    "id": "subito_id:ad:e551dc66-215d-4cd5-b909-c2f0efed2502:list:643145773",
+    "platform": "SUBITO",
+    "title": "PC GAMING  + UPS PROFESSIONALE",
+    "price": 1500.0,
+    "url": "https://www.subito.it/informatica/pc-gaming-ups-professionale-oristano-643145773.htm",
+    "description": "PC GAMING  + UPS PROFESSIONALE",
+    "image_url": null,
+    "extra_info": "Terralba (OR) | Spedizione disponibile"
+  },
+  "decision": {
+    "status": "REJECT",
+    "reason": "Regole base fallite",
+    "score": 0,
+    "config": "standard"
+  },
+  "evidence": [
+    {
+      "step": "rules",
+      "status": "REJECT",
+      "reason": "Manca parola richiesta: ['ddr4', 'ram', 'memoria', '32gb', '16gb']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:30:06"
+    },
+    {
+      "step": "decision",
+      "status": "REJECT",
+      "reason": "Regole base fallite",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:30:06"
+    }
+  ]
+}

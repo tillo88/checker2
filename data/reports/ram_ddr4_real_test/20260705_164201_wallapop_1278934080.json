@@ -1,0 +1,38 @@
+{
+  "listing": {
+    "id": "wallapop_1278934080",
+    "platform": "WALLAPOP",
+    "title": "1 / 5\n8 €\nMemoria RAM V7 DDR2 2GB 667MHz PC2-5300",
+    "price": 8.0,
+    "url": "https://it.wallapop.com/item/memoria-ram-v7-ddr2-2gb-667mhz-pc2-5300-1278934080",
+    "description": "Modulo di memoria RAM V7 DDR2 da 2 GB per computer desktop, con velocità di 667 MHz (PC2-5300). ⚠️ NON TESTATO MA IN BUONE CONDIZIONI. B39T-J ✅ SIAMO UN NEGOZI. Calle Andreu Soler 7, San Adrián del Besós, Barcelona. Lun-Sab 10:00-14:00 & 16:30-20:00 ♻️ RESO AMAZON CONTROLLATO ⚠️ Il contenuto delle foto è tutto ciò che è incluso.",
+    "image_url": null,
+    "extra_info": ""
+  },
+  "decision": {
+    "status": "REJECT",
+    "reason": "Regole base fallite",
+    "score": 0,
+    "config": "standard"
+  },
+  "evidence": [
+    {
+      "step": "rules",
+      "status": "REJECT",
+      "reason": "Parole escluse: ['pc']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T16:42:01"
+    },
+    {
+      "step": "decision",
+      "status": "REJECT",
+      "reason": "Regole base fallite",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T16:42:01"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "listing": {
+    "id": "subito_id:ad:13ce5d37-f9f2-4d79-8a4b-0bff952579bf:list:653063169",
+    "platform": "SUBITO",
+    "title": "PC PORTATILE RYZEN 7 OCTACORE|16GB DDR4|NVMe 512GB",
+    "price": 319.0,
+    "url": "https://www.subito.it/informatica/pc-portatile-ryzen-7-octacore-16gb-ddr4-nvme-512gb-torino-653063169.htm",
+    "description": "PC PORTATILE RYZEN 7 OCTACORE|16GB DDR4|NVMe 512GB",
+    "image_url": null,
+    "extra_info": "Orbassano (TO) | Spedizione disponibile"
+  },
+  "decision": {
+    "status": "REJECT",
+    "reason": "Regole base fallite",
+    "score": 0,
+    "config": "standard"
+  },
+  "evidence": [
+    {
+      "step": "rules",
+      "status": "MATCH",
+      "reason": "Parole richieste trovate: ['ddr4', '16gb']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:21:21"
+    },
+    {
+      "step": "rules",
+      "status": "REJECT",
+      "reason": "Parole escluse: ['pc']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:21:21"
+    },
+    {
+      "step": "decision",
+      "status": "REJECT",
+      "reason": "Regole base fallite",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:21:21"
+    }
+  ]
+}

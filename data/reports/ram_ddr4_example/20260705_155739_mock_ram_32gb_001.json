@@ -1,0 +1,94 @@
+{
+  "listing": {
+    "id": "mock_ram_32gb_001",
+    "platform": "MOCK",
+    "title": "RAM DDR4 32GB Corsair 3200MHz desktop",
+    "price": 75.0,
+    "url": "https://example.com/mock_ram_32gb_001",
+    "description": "Vendo banco RAM DDR4 desktop 32GB Corsair 3200MHz, perfettamente funzionante.",
+    "image_url": null,
+    "extra_info": ""
+  },
+  "decision": {
+    "status": "ACCEPT",
+    "reason": "MOCK | 75EUR | Score 88/100 | 32gb",
+    "score": 88,
+    "config": "32gb"
+  },
+  "evidence": [
+    {
+      "step": "rules",
+      "status": "ACCEPT",
+      "reason": "Regole base OK",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T15:57:39"
+    },
+    {
+      "step": "pattern",
+      "status": "ACCEPT",
+      "reason": "Config 32gb: 32gb",
+      "score_delta": 0,
+      "confidence": 85,
+      "data": {},
+      "timestamp": "2026-07-05T15:57:39"
+    },
+    {
+      "step": "budget",
+      "status": "ACCEPT",
+      "reason": "75EUR / budget 130EUR",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {
+        "budget": 130.0
+      },
+      "timestamp": "2026-07-05T15:57:39"
+    },
+    {
+      "step": "score",
+      "status": "BONUS",
+      "reason": "Marca premium: corsair",
+      "score_delta": 5,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T15:57:39"
+    },
+    {
+      "step": "score",
+      "status": "BONUS",
+      "reason": "Keyword positiva: 3200mhz",
+      "score_delta": 5,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T15:57:39"
+    },
+    {
+      "step": "score",
+      "status": "BONUS",
+      "reason": "Keyword positiva: corsair",
+      "score_delta": 3,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T15:57:39"
+    },
+    {
+      "step": "score",
+      "status": "ACCEPT",
+      "reason": "Score finale 88/100",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T15:57:39"
+    },
+    {
+      "step": "decision",
+      "status": "ACCEPT",
+      "reason": "MOCK | 75EUR | Score 88/100 | 32gb",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T15:57:39"
+    }
+  ]
+}

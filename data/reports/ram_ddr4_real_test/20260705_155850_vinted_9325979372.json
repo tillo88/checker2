@@ -1,0 +1,38 @@
+{
+  "listing": {
+    "id": "vinted_9325979372",
+    "platform": "VINTED",
+    "title": "CustommadeOttime900,00 €945,70 €incl.",
+    "price": 900.0,
+    "url": "https://www.vinted.it/items/9325979372-gaming-setup?referrer=catalog",
+    "description": "CustommadeOttime900,00 €945,70 €incl.",
+    "image_url": "https://marketplace-web-assets.vinted.com/_next/static/media/logo.10w5-fhfapeza.svg",
+    "extra_info": ""
+  },
+  "decision": {
+    "status": "REJECT",
+    "reason": "Regole base fallite",
+    "score": 0,
+    "config": "standard"
+  },
+  "evidence": [
+    {
+      "step": "rules",
+      "status": "REJECT",
+      "reason": "Manca parola richiesta: ['ddr4', 'ram', 'memoria', '32gb', '16gb']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T15:58:50"
+    },
+    {
+      "step": "decision",
+      "status": "REJECT",
+      "reason": "Regole base fallite",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T15:58:50"
+    }
+  ]
+}

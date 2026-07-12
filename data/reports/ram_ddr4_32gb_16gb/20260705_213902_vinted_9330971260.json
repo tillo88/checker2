@@ -1,0 +1,59 @@
+{
+  "listing": {
+    "id": "vinted_9330971260",
+    "platform": "VINTED",
+    "title": "Ddr5 Ryzen 9 7950x3d ram ddr5 2x16, brand: AMD, condizioni: Ottime,",
+    "price": 320.0,
+    "url": "https://www.vinted.it/items/9330971260-ddr5-ryzen-9-7950x3d-ram-ddr5-2x16?referrer=catalog",
+    "description": "Price is negotiable Ryzen 9 7950x3d, I never used it. Perfect for gaming and productivity. Keywords: Crucial Ballistix, Corsair Vengeance RGB, Corsair Dominator Platinum, G.Skill Trident Z RGB, GSkill Ripjaws, Kingston FURY Beast, HyperX, Teamgroup T-Force Delta, GeIL, DDR4 3200mhz, DDR4 3600mhz, DDR5 5200mhz, DDR5 5600mhz, DDR5 6000mhz, DDR5 6400mhz, RAM 16GB, RAM 32GB, RAM 64GB, Dual Channel, Quad Channel, XMP 2.0, EXPO ## NVIDIA GeForce: RTX 3060, RTX 3070, RTX 3080, RTX 4060 Ti, RTX 4070 Super, RTX 4070 Ti Super, RTX 4080 Super, RTX 4090, RTX 5070, RTX 5080, RTX 5090. AMD Radeon: RX 6700 XT, RX 7600 XT, RX 7700 XT, RX 7800 XT, RX 7900 XTX, RX 8700 XT, RX 8800 XT. ## AMD Ryzen: Ryzen 5 5600X, Ryzen 7 5800X3D (per chi cerca upgrade DDR4), Ryzen 5 7600X, Ryzen 7 7800X3D, Ryzen 9 7950X, Ryzen 5 9600X, Ryzen 7 9700X, Ryzen 7 9800X3D, Ryzen 9 9950X. Intel Core: i5 12400F, i7 12700K, i5 13600K, i7 13700K, i9 13900K, i5 14600K, i7 14700K, i9 14900K, Core Ultra 5 245K, Core Ultra 7 265K, Core Ultra 9 285K.\n... altro",
+    "image_url": "https://marketplace-web-assets.vinted.com/_next/static/media/logo.10w5-fhfapeza.svg",
+    "extra_info": ""
+  },
+  "decision": {
+    "status": "REJECT",
+    "reason": "Context: Listing sells complete computer/system with CPU, not standalone DDR4 RAM component",
+    "score": 0,
+    "config": "standard"
+  },
+  "evidence": [
+    {
+      "step": "rules",
+      "status": "MATCH",
+      "reason": "Parole richieste trovate: ['ddr4', 'ram', '32gb', '16gb']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T21:38:14"
+    },
+    {
+      "step": "rules",
+      "status": "ACCEPT",
+      "reason": "Regole base OK",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T21:38:14"
+    },
+    {
+      "step": "context",
+      "status": "REJECT",
+      "reason": "Listing sells complete computer/system with CPU, not standalone DDR4 RAM component",
+      "score_delta": 0,
+      "confidence": 30,
+      "data": {
+        "config": null,
+        "price_eur": null
+      },
+      "timestamp": "2026-07-05T21:39:02"
+    },
+    {
+      "step": "decision",
+      "status": "REJECT",
+      "reason": "Context: Listing sells complete computer/system with CPU, not standalone DDR4 RAM component",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T21:39:02"
+    }
+  ]
+}

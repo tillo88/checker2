@@ -1,0 +1,47 @@
+{
+  "listing": {
+    "id": "vinted_9330955494",
+    "platform": "VINTED",
+    "title": "32 GB Kit (2x16) DDR-4 Ram / Arbeitsspeicher, brand: Crucial, condizioni: Ottime,",
+    "price": 120.0,
+    "url": "https://www.vinted.it/items/9330955494-32-gb-kit-2x16-ddr-4-ram-arbeitsspeicher?referrer=catalog",
+    "description": "Verkaufe ein leistungsstarkes 32GB SODIMM DDR4 Arbeitsspeicher-Kit (bestehend aus zwei 16GB Modulen) von Crucial für Laptops, Notebooks oder Mini-PCs. Das Kit befindet sich in der Originalverpackung und funktioniert einwandfrei. Der Versand erfolgt gut gepolstert und sicher verpackt in der originalen Blister-Hülle. Da es sich um einen Privatverkauf handelt, erfolgt der Verkauf unter Ausschluss jeglicher Gewährleistung, Garantie oder Rücknahme.",
+    "image_url": "https://marketplace-web-assets.vinted.com/_next/static/media/logo.10w5-fhfapeza.svg",
+    "extra_info": ""
+  },
+  "decision": {
+    "status": "REJECT",
+    "reason": "Regole base fallite",
+    "score": 0,
+    "config": "standard"
+  },
+  "evidence": [
+    {
+      "step": "rules",
+      "status": "MATCH",
+      "reason": "Parole richieste trovate: ['ddr4', 'ram', '32gb', '16gb']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T21:38:01"
+    },
+    {
+      "step": "rules",
+      "status": "REJECT",
+      "reason": "Parole escluse: ['sodimm', 'notebook', 'laptop']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T21:38:01"
+    },
+    {
+      "step": "decision",
+      "status": "REJECT",
+      "reason": "Regole base fallite",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T21:38:01"
+    }
+  ]
+}

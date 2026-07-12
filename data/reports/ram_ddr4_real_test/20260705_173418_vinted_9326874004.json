@@ -1,0 +1,79 @@
+{
+  "listing": {
+    "id": "vinted_9326874004",
+    "platform": "VINTED",
+    "title": "corsair vengeance ddr4 32gb 3000mhz, brand: Corsair, condizioni: Ottime,",
+    "price": 200.0,
+    "url": "https://www.vinted.it/items/9326874004-corsair-vengeance-ddr4-32gb-3000mhz?referrer=catalog",
+    "description": "corsair vengeance ddr4 32gb 3000mhz, brand: Corsair, condizioni: Ottime,",
+    "image_url": null,
+    "extra_info": ""
+  },
+  "decision": {
+    "status": "REJECT",
+    "reason": "Prezzo sopra budget",
+    "score": 0,
+    "config": "Corsair Vengeance DDR4 32GB 3000MHz desktop RAM"
+  },
+  "evidence": [
+    {
+      "step": "rules",
+      "status": "MATCH",
+      "reason": "Parole richieste trovate: ['ddr4', '32gb']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:34:15"
+    },
+    {
+      "step": "rules",
+      "status": "ACCEPT",
+      "reason": "Regole base OK",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:34:15"
+    },
+    {
+      "step": "context",
+      "status": "ACCEPT",
+      "reason": "Sells standalone DDR4 RAM module matching target specs",
+      "score_delta": 0,
+      "confidence": 75,
+      "data": {
+        "config": "Corsair Vengeance DDR4 32GB 3000MHz desktop RAM",
+        "price_eur": null
+      },
+      "timestamp": "2026-07-05T17:34:18"
+    },
+    {
+      "step": "pattern",
+      "status": "ACCEPT",
+      "reason": "Config 32gb: 32gb",
+      "score_delta": 0,
+      "confidence": 85,
+      "data": {},
+      "timestamp": "2026-07-05T17:34:18"
+    },
+    {
+      "step": "budget",
+      "status": "REJECT",
+      "reason": "200EUR / budget 130EUR",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {
+        "budget": 130.0
+      },
+      "timestamp": "2026-07-05T17:34:18"
+    },
+    {
+      "step": "decision",
+      "status": "REJECT",
+      "reason": "Prezzo sopra budget",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:34:18"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "listing": {
+    "id": "mock_ram_32gb_001",
+    "platform": "MOCK",
+    "title": "RAM DDR4 32GB Corsair 3200MHz desktop",
+    "price": 75.0,
+    "url": "https://example.com/mock_ram_32gb_001",
+    "description": "Vendo banco RAM DDR4 desktop 32GB Corsair 3200MHz, perfettamente funzionante.",
+    "image_url": null,
+    "extra_info": ""
+  },
+  "decision": {
+    "status": "SKIP",
+    "reason": "Già visto",
+    "score": 0,
+    "config": "standard"
+  },
+  "evidence": [
+    {
+      "step": "seen",
+      "status": "SKIP",
+      "reason": "Annuncio già visto",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:29:53"
+    }
+  ]
+}

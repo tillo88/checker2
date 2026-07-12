@@ -1,0 +1,38 @@
+{
+  "listing": {
+    "id": "wallapop_1278928352",
+    "platform": "WALLAPOP",
+    "title": "✅ RADIO PASSAT B7 2 DIN ANDROID SCHERMO ✅",
+    "price": 150.0,
+    "url": "https://it.wallapop.com/item/radio-passat-b7-2-din-android-pantalla-1278928352",
+    "description": "Compatibile con: Passat(mk6)(2006-2011), Passat CC(2008-2011), Passat MK7(2010-2011), Jetta(2006-2011), Tiguan(2007-2011) 1. Sistema operativo Android 15 2. CPU: Quad Core MTK8227L / Cortex-A53 Octa Core Rockchip PX5 3. RAM: DDR3 2 Gb / 4 Gb. Memoria di archiviazione 16GB / 32GB / 64GB 4. Radio: FM / AM con RDS puoi vedere il nome delle stazioni o la frequenza. Preparato per DAB+ (vedi qui) 5. Schermo multi-touch IPS 2.5D da 9 pollici, risoluzione 1280*600 6. Supporta USB 4G. WIFI integrato, consente di condividere la connessione con il telefono cellulare, è possibile connettersi a Internet tramite USB 4G o WIFI. USB 4G compatibile qui 7. GPS integrato",
+    "image_url": null,
+    "extra_info": ""
+  },
+  "decision": {
+    "status": "REJECT",
+    "reason": "Regole base fallite",
+    "score": 0,
+    "config": "standard"
+  },
+  "evidence": [
+    {
+      "step": "rules",
+      "status": "REJECT",
+      "reason": "Distrattori: ['cpu']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T16:47:29"
+    },
+    {
+      "step": "decision",
+      "status": "REJECT",
+      "reason": "Regole base fallite",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T16:47:29"
+    }
+  ]
+}

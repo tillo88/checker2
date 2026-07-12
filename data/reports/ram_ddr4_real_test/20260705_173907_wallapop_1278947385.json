@@ -1,0 +1,47 @@
+{
+  "listing": {
+    "id": "wallapop_1278947385",
+    "platform": "WALLAPOP",
+    "title": "PC Gaming High-End DDR5 RX7900 XT 20GB",
+    "price": 1800.0,
+    "url": "https://it.wallapop.com/item/pc-gaming-high-end-ddr5-rx7900-xt-20gb-1278947385",
+    "description": "PC Gaming High-End CPU:I7-14700KF 20 Core MOBO: Asus tuf gaming z790 plus wifi RAM: 32gb DDR5 6000Mhz CL30 GPU: RX7900 XT 20GB Power color SSD: Nvme M.2 512Gb Gen.4. Alimentatore: MSI MAG A750GL Disspazione: Thermaltake aqua elite 360 rgb Case: Cosair frame 4000d. Monitor: QLED 2K 240hz Samsung odissey g7 Vendo PC da gaming di alta fascia buildato 2 mesi fa, vendo causa lavoro e futuro trasferimento, il pc in questione é pronto a tutto dal gaming a 2k a 240hz, al 4k senza alcun tipo di problema, dati anche i 20gb di - 32GB DDR5 RAM - Tarjeta gráfica AMD Radeon RX7900 XT con 20GB de VRAM - Diseño moderno y refrigeración eficiente",
+    "image_url": null,
+    "extra_info": ""
+  },
+  "decision": {
+    "status": "REJECT",
+    "reason": "Regole base fallite",
+    "score": 0,
+    "config": "standard"
+  },
+  "evidence": [
+    {
+      "step": "rules",
+      "status": "MATCH",
+      "reason": "Parole richieste trovate: ['ram', '32gb']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:39:07"
+    },
+    {
+      "step": "rules",
+      "status": "REJECT",
+      "reason": "Parole escluse: ['pc']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:39:07"
+    },
+    {
+      "step": "decision",
+      "status": "REJECT",
+      "reason": "Regole base fallite",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:39:07"
+    }
+  ]
+}

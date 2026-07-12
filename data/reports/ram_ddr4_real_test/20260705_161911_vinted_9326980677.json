@@ -1,0 +1,38 @@
+{
+  "listing": {
+    "id": "vinted_9326980677",
+    "platform": "VINTED",
+    "title": "Lenovo Legion 5Ottime1800,00 €1890,70 €incl.",
+    "price": 5.0,
+    "url": "https://www.vinted.it/items/9326980677-lenovo-legion-5-ryzen-7-5800h-rtx-3070-8gb-32gb-ram-ssd-1tb-165hz?referrer=catalog",
+    "description": "Lenovo Legion 5Ottime1800,00 €1890,70 €incl.",
+    "image_url": null,
+    "extra_info": ""
+  },
+  "decision": {
+    "status": "REJECT",
+    "reason": "Regole base fallite",
+    "score": 0,
+    "config": "standard"
+  },
+  "evidence": [
+    {
+      "step": "rules",
+      "status": "REJECT",
+      "reason": "Manca parola richiesta: ['ddr4', 'ram', 'memoria', '32gb', '16gb']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T16:19:11"
+    },
+    {
+      "step": "decision",
+      "status": "REJECT",
+      "reason": "Regole base fallite",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T16:19:11"
+    }
+  ]
+}

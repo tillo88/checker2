@@ -1,0 +1,47 @@
+{
+  "listing": {
+    "id": "vinted_9015010010",
+    "platform": "VINTED",
+    "title": "Crucial 32GB DDR4 Ram, brand: Crucial, condizioni: Ottime,",
+    "price": 150.0,
+    "url": "https://www.vinted.it/items/9015010010-crucial-32gb-ddr4-ram",
+    "description": "Crucial 2400MHz DDR4 32GB | (2x16GB) 💻 Perfect for upgrading your laptop / work station! RAM tested and fully functional. Tests passed ✅: Physical RAM tester, memtest86, Microsoft testlimit Model: CT16G4SFD824A Capacity: 16GB Speed: 2400MHz Type: DDR4 Voltage: 1.2V Size: SO-DIMM Condition is very good & fully functional. Price is well below market price! (see images) *please check whether these RAM specifications work for the specific model of your laptop",
+    "image_url": "https://marketplace-web-assets.vinted.com/_next/static/media/logo.10w5-fhfapeza.svg",
+    "extra_info": ""
+  },
+  "decision": {
+    "status": "REJECT",
+    "reason": "Regole base fallite",
+    "score": 0,
+    "config": "standard"
+  },
+  "evidence": [
+    {
+      "step": "rules",
+      "status": "MATCH",
+      "reason": "Parole richieste trovate: ['ddr4', 'ram', '32gb', '16gb']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T21:40:52"
+    },
+    {
+      "step": "rules",
+      "status": "REJECT",
+      "reason": "Parole escluse: ['laptop']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T21:40:52"
+    },
+    {
+      "step": "decision",
+      "status": "REJECT",
+      "reason": "Regole base fallite",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T21:40:52"
+    }
+  ]
+}

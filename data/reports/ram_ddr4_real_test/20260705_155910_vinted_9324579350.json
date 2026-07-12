@@ -1,0 +1,38 @@
+{
+  "listing": {
+    "id": "vinted_9324579350",
+    "platform": "VINTED",
+    "title": "2ElixirBuone18,00 €19,60 €incl.",
+    "price": 2.0,
+    "url": "https://www.vinted.it/items/9324579350-elixir-16gb-ddr3-ram-kit-2x-8gb-fur-desktop-pc?referrer=catalog",
+    "description": "2ElixirBuone18,00 €19,60 €incl.",
+    "image_url": "https://marketplace-web-assets.vinted.com/_next/static/media/logo.10w5-fhfapeza.svg",
+    "extra_info": ""
+  },
+  "decision": {
+    "status": "REJECT",
+    "reason": "Regole base fallite",
+    "score": 0,
+    "config": "standard"
+  },
+  "evidence": [
+    {
+      "step": "rules",
+      "status": "REJECT",
+      "reason": "Manca parola richiesta: ['ddr4', 'ram', 'memoria', '32gb', '16gb']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T15:59:10"
+    },
+    {
+      "step": "decision",
+      "status": "REJECT",
+      "reason": "Regole base fallite",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T15:59:10"
+    }
+  ]
+}

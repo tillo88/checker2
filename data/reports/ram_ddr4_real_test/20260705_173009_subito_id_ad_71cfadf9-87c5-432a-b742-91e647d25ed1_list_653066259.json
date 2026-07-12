@@ -1,0 +1,47 @@
+{
+  "listing": {
+    "id": "subito_id:ad:71cfadf9-87c5-432a-b742-91e647d25ed1:list:653066259",
+    "platform": "SUBITO",
+    "title": "Bundle Z790 DDR4, I5 14600KF, 32GB RAM, 256 NVME",
+    "price": 580.0,
+    "url": "https://www.subito.it/informatica/bundle-z790-ddr4-i5-14600kf-32gb-ram-256-nvme-padova-653066259.htm",
+    "description": "Bundle Z790 DDR4, I5 14600KF, 32GB RAM, 256 NVME",
+    "image_url": null,
+    "extra_info": "Padova (PD) | Spedizione disponibile"
+  },
+  "decision": {
+    "status": "REJECT",
+    "reason": "Regole base fallite",
+    "score": 0,
+    "config": "standard"
+  },
+  "evidence": [
+    {
+      "step": "rules",
+      "status": "MATCH",
+      "reason": "Parole richieste trovate: ['ddr4', 'ram', '32gb']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:30:09"
+    },
+    {
+      "step": "rules",
+      "status": "REJECT",
+      "reason": "Parole escluse: ['bundle']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:30:09"
+    },
+    {
+      "step": "decision",
+      "status": "REJECT",
+      "reason": "Regole base fallite",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:30:09"
+    }
+  ]
+}

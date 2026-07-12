@@ -1,0 +1,47 @@
+{
+  "listing": {
+    "id": "subito_id:ad:98666ee8-8c12-4581-992f-4eea7f41689e:list:652403231",
+    "platform": "SUBITO",
+    "title": "Scheda madre+Intel i7+48gb ram+dissipatore",
+    "price": 380.0,
+    "url": "https://www.subito.it/informatica/scheda-madre-intel-i7-48gb-ram-dissipatore-bergamo-652403231.htm",
+    "description": "Scheda madre+Intel i7+48gb ram+dissipatore",
+    "image_url": null,
+    "extra_info": "Mozzanica (BG) | Spedizione disponibile"
+  },
+  "decision": {
+    "status": "REJECT",
+    "reason": "Regole base fallite",
+    "score": 0,
+    "config": "standard"
+  },
+  "evidence": [
+    {
+      "step": "rules",
+      "status": "MATCH",
+      "reason": "Parole richieste trovate: ['ram']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:40:42"
+    },
+    {
+      "step": "rules",
+      "status": "REJECT",
+      "reason": "Distrattori: ['scheda madre']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:40:42"
+    },
+    {
+      "step": "decision",
+      "status": "REJECT",
+      "reason": "Regole base fallite",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:40:42"
+    }
+  ]
+}

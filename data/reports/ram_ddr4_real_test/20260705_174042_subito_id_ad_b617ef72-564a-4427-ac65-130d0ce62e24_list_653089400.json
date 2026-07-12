@@ -1,0 +1,38 @@
+{
+  "listing": {
+    "id": "subito_id:ad:b617ef72-564a-4427-ac65-130d0ce62e24:list:653089400",
+    "platform": "SUBITO",
+    "title": "Macbook pro 13",
+    "price": 400.0,
+    "url": "https://www.subito.it/informatica/macbook-pro-13-roma-653089400.htm",
+    "description": "Macbook pro 13",
+    "image_url": null,
+    "extra_info": "Roma (RM) | Spedizione disponibile"
+  },
+  "decision": {
+    "status": "REJECT",
+    "reason": "Regole base fallite",
+    "score": 0,
+    "config": "standard"
+  },
+  "evidence": [
+    {
+      "step": "rules",
+      "status": "REJECT",
+      "reason": "Manca parola richiesta: ['ddr4', 'ram', 'memoria', '32gb', '16gb']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:40:42"
+    },
+    {
+      "step": "decision",
+      "status": "REJECT",
+      "reason": "Regole base fallite",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T17:40:42"
+    }
+  ]
+}

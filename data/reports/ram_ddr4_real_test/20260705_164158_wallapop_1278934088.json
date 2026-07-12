@@ -1,0 +1,38 @@
+{
+  "listing": {
+    "id": "wallapop_1278934088",
+    "platform": "WALLAPOP",
+    "title": "1 / 3\n75 €\nPC HP EliteDesk i5 4590 16GB RAM SSD+HDD",
+    "price": 75.0,
+    "url": "https://it.wallapop.com/item/pc-hp-elitedesk-i5-4590-16gb-ram-ssd-hdd-1278934088",
+    "description": "PC desktop HP Elitedesk in buone condizioni, ideale per studio e multimedia. Presenta segni d'uso non visibili nelle foto. Altri PC disponibili nel mio profilo. Possibilità di visione e prova a Mejorada del Campo. Spedizione disponibile. Caratteristiche: Windows 11 Pro con licenza, Microsoft 365 attivato, CPU i5 4590 4 core 3.30GHz-turbo 3.70GHz, 120GB SSD+500GB HDD, 16GB RAM DDR3, scheda grafica integrata Intel HD Graphics 4600, uscite video VGA, DisplayPort e HDMI tramite adattatore DP a HDMI, lettore DVD RW.",
+    "image_url": null,
+    "extra_info": ""
+  },
+  "decision": {
+    "status": "REJECT",
+    "reason": "Regole base fallite",
+    "score": 0,
+    "config": "standard"
+  },
+  "evidence": [
+    {
+      "step": "rules",
+      "status": "REJECT",
+      "reason": "Parole escluse: ['pc']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T16:41:58"
+    },
+    {
+      "step": "decision",
+      "status": "REJECT",
+      "reason": "Regole base fallite",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T16:41:58"
+    }
+  ]
+}

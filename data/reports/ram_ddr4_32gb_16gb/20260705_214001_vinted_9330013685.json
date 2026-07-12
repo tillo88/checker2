@@ -1,0 +1,47 @@
+{
+  "listing": {
+    "id": "vinted_9330013685",
+    "platform": "VINTED",
+    "title": "RAM Kingston FURY Impact 32GB (2x16GB) DDR4 3200MHz per Notebook, brand: Kingston, condizioni: Nuovo",
+    "price": 140.0,
+    "url": "https://www.vinted.it/items/9330013685-ram-kingston-fury-impact-32gb-2x16gb-ddr4-3200mhz-per-notebook?referrer=catalog",
+    "description": "Vendo kit di memoria RAM top di gamma per notebook: Kingston FURY Impact 32GB (2x16GB) DDR4 a 3200MHz. La RAM è praticamente nuova e perfettamente funzionante. Ha una latenza bassa (CL20) con tecnologia Plug N Play, ideale per migliorare gli FPS e le prestazioni nei portatili da gaming (perfetta per Lenovo Legion, ASUS ROG, MSI, Acer, ecc.). Motivo della vendita: Il BIOS del mio portatile (HP Victus) è bloccato di fabbrica e accetta solo memorie con timing standard CL22. Il mio PC non riesce a farle girare in dual channel per questo limite della scheda madre, ma i banchi sono testati e funzionano perfettamente. Valuto anche scambio con un kit da 32GB (2x16GB) DDR4 3200MHz con timing standard (CL22), preferibilmente marche come Crucial, Samsung o SK Hynix.",
+    "image_url": "https://marketplace-web-assets.vinted.com/_next/static/media/logo.10w5-fhfapeza.svg",
+    "extra_info": ""
+  },
+  "decision": {
+    "status": "REJECT",
+    "reason": "Regole base fallite",
+    "score": 0,
+    "config": "standard"
+  },
+  "evidence": [
+    {
+      "step": "rules",
+      "status": "MATCH",
+      "reason": "Parole richieste trovate: ['ddr4', 'ram', 'memoria', '32gb', '16gb']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T21:40:01"
+    },
+    {
+      "step": "rules",
+      "status": "REJECT",
+      "reason": "Parole escluse: ['ecc', 'notebook', 'pc', 'vendo']",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T21:40:01"
+    },
+    {
+      "step": "decision",
+      "status": "REJECT",
+      "reason": "Regole base fallite",
+      "score_delta": 0,
+      "confidence": null,
+      "data": {},
+      "timestamp": "2026-07-05T21:40:01"
+    }
+  ]
+}
